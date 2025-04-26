@@ -1,0 +1,1 @@
+<b>Посмотреть сертификаты и декларации на сайте федеральной службы по аккредитации: <a title="Декларация на бетон ООО «АРИС»" href="https://pub.fsa.gov.ru/rds/declaration/view/18813891/common" rel="nofollow" target="_blank" >Ссылка на декларацию</a></b>

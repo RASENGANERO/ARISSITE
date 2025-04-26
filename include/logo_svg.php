@@ -1,0 +1,1 @@
+<img data-replace="/images/logo_new.svg" src="/images/logo_new.svg" data-src="/images/logo_new.svg" width="160"  alt="logo" />

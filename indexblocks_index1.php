@@ -1,0 +1,786 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();?>
+
+
+<?global $arMainPageOrder; //global array for order blocks?>
+<?global $arTheme, $dopBodyClass;?>
+<?if($arMainPageOrder && is_array($arMainPageOrder)):?>
+	<?foreach($arMainPageOrder as $key => $optionCode):?>
+		<?$strTemplateName = $arTheme['TEMPLATE_PARAMS'][$arTheme['INDEX_TYPE']['VALUE']][$arTheme['INDEX_TYPE']['VALUE'].'_'.$optionCode.'_TEMPLATE']['VALUE'];?>
+		<?$subtype = strtolower($optionCode);?>
+		
+		<?$dopBodyClass .= ' '.$optionCode.'_'.$strTemplateName;?>
+
+		<?//BIG_BANNER_INDEX?>
+		<?if($optionCode == "BIG_BANNER_INDEX"):?>
+			<?global $bShowBigBanners, $bBigBannersIndexClass;?>
+			<?if($bShowBigBanners):?>
+				<?$bIndexLongBigBanner = ($strTemplateName != "type_1" && $strTemplateName != "type_4")?>
+				<?if(!$bIndexLongBigBanner):?>
+					<?$dopBodyClass .= ' right_mainpage_banner';?>
+				<?endif;?>
+
+				<?if($bIndexLongBigBanner):?>
+					<?ob_start();?>
+						<div class="middle">
+				<?endif;?>
+
+				<div class="drag-block grey container <?=$optionCode?> <?=$bBigBannersIndexClass?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+
+				<?if($bIndexLongBigBanner):?>
+						</div>
+					<?$html = ob_get_contents();
+					ob_end_clean();?>
+					<?$APPLICATION->AddViewContent('front_top_big_banner',$html);?>
+				<?endif;?>
+			<?endif;?>
+
+            <div class="maxwidth-theme <?/*calc_btn_div*/ ?> banner-block-calc">
+                <?/*<a href="/calc/" class="goto_calc">Калькулятор доставки</a>*/ ?>
+                <div class="banner-mas">
+                    <div class="banner-mas-text">
+                        <span>Расчет цены бетона<br />с доставкой на карте</span>
+                        <a href="/dostavka/" class="btn btn-default transition_bg animate-load has-ripple">Калькулятор доставки</a>
+                    </div>
+                </div>
+            </div>
+
+            <?//CATALOG_SECTIONS?>
+            <?global $bShowCatalogSections, $bCatalogSectionsIndexClass;?>
+            <?if($bShowCatalogSections):?>
+                <div class="drag-block container CATALOG_SECTIONS <?=$bCatalogSectionsIndexClass;?> js-load-block loader_circle" data-class="catalog_sections_drag" data-order="0" data-file="<?=SITE_DIR;?>include/mainpage/components/catalog_sections/front_sections_only.php">
+                    <?=CMax::ShowPageType('mainpage', 'catalog_sections', 'front_sections_only');?>
+                </div>
+            <?endif;?>
+            
+
+        <?/*
+
+            <div class="content_wrapper_block">
+                <div class="maxwidth-theme fast-order-box">
+                    <div class="btn show_price_list btn-default">Открыть калькулятор</div>
+                    <div class="price_index">
+                        <?
+                        global $fastOrder;
+                        $fastOrder = array("IN_STOCK" => "Y");
+                        $APPLICATION->IncludeComponent(
+                            "onulln:fastorder",
+                            "main_compact_ajax_index",
+                            array(
+                                "IBLOCK_TYPE" => "aspro_max_catalog",
+                                "IBLOCK_ID" => "26",
+                                "AJAX_FILTER_FLAG" => "Y",
+                                "SECTION_ID" => (isset($arSection["ID"])?$arSection["ID"]:""),
+                                "FILTER_NAME" => 'fastOrder',
+                                "PRICE_CODE" => array(
+                                    0 => "BASE",
+                                ),
+                                "CACHE_TYPE" => "A",
+                                "CACHE_TIME" => "36000000",
+                                "CACHE_NOTES" => "",
+                                "CACHE_GROUPS" => "Y",
+                                "SAVE_IN_SESSION" => "N",
+                                "XML_EXPORT" => "Y",
+                                "SECTION_TITLE" => "NAME",
+                                "SECTION_DESCRIPTION" => "DESCRIPTION",
+                                "SHOW_HINTS" => $arParams["SHOW_HINTS"],
+                                "CONVERT_CURRENCY" => "N",
+                                "CURRENCY_ID" => $arParams["CURRENCY_ID"],
+                                "DISPLAY_ELEMENT_COUNT" => "N",
+                                "INSTANT_RELOAD" => "Y",
+                                "VIEW_MODE" => strtolower($arTheme["FILTER_VIEW"]["VALUE"]),
+                                "SEF_MODE" => "N",
+                                "SEF_RULE" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["smart_filter"],
+                                "SMART_FILTER_PATH" => $arResult["VARIABLES"]["SMART_FILTER_PATH"],
+                                "HIDE_NOT_AVAILABLE" => "N",
+                                "SEF_RULE_FILTER" => $arResult["URL_TEMPLATES"]["smart_filter"],
+                                "SORT_BUTTONS" => $arParams["SORT_BUTTONS"],
+                                "SORT_PRICES" => $arParams["SORT_PRICES"],
+                                "AVAILABLE_SORT" => $arAvailableSort,
+                                "SORT" => $sort,
+                                "SORT_ORDER" => $sort_order,
+                                "COMPONENT_TEMPLATE" => ".default",
+                                "SECTION_CODE" => "",
+                                "PREFILTER_NAME" => "smartPreFilter",
+                                "TEMPLATE_THEME" => "blue",
+                                "FILTER_VIEW_MODE" => "vertical",
+                                "POPUP_POSITION" => "left",
+                                "PAGER_PARAMS_NAME" => "arrPager"
+                            ),
+                            $component
+                        );
+                        ?>
+                    </div>
+                </div>
+            </div>
+
+*/?>
+
+
+            <?
+            global $arrFilter;
+            $arrFilter["PROPERTY_LINK_REGION"] = $GLOBALS["arRegionLink"]["PROPERTY_LINK_REGION"];
+
+//            echo "<pre style='display: none;'>"; print_r(); echo "</pre>";
+
+//Блок быстрого заказа
+//global $USER;
+//if ($USER->IsAdmin()) {
+            $APPLICATION->IncludeComponent(
+                "beton-gost:quick.basket",
+                "main_page",
+                Array(
+	"ACTION_VARIABLE" => "action",
+		"ADD_PICT_PROP" => "-",
+		"ADD_PROPERTIES_TO_BASKET" => "Y",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"ADD_TO_BASKET_ACTION" => "ADD",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BACKGROUND_IMAGE" => "-",
+		"BASKET_URL" => "/personal/basket.php",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "N",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"COMPATIBLE_MODE" => "Y",
+		"CONVERT_CURRENCY" => "N",
+		"CUSTOM_FILTER" => "",
+		"DETAIL_URL" => "",
+		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "N",
+		"DISPLAY_COMPARE" => "N",
+		"DISPLAY_TOP_PAGER" => "N",
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"ENLARGE_PRODUCT" => "STRICT",
+		"FILTER_NAME" => "arrFilter",
+		"HIDE_NOT_AVAILABLE" => "Y",
+		"HIDE_NOT_AVAILABLE_OFFERS" => "Y",
+		"IBLOCK_ID" => "26",
+		"IBLOCK_TYPE" => "aspro_max_catalog",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"LABEL_PROP" => "",
+		"LAZY_LOAD" => "N",
+		"LINE_ELEMENT_COUNT" => "3",
+		"LOAD_ON_SCROLL" => "N",
+		"MESSAGE_404" => "",
+		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
+		"MESS_BTN_BUY" => "Купить",
+		"MESS_BTN_DETAIL" => "Подробнее",
+		"MESS_BTN_SUBSCRIBE" => "Подписаться",
+		"MESS_NOT_AVAILABLE" => "Нет в наличии",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"OFFERS_CART_PROPERTIES" => "",
+		"OFFERS_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"OFFERS_LIMIT" => "5",
+		"OFFERS_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"OFFERS_SORT_FIELD" => "SCALED_PRICE_1",
+		"OFFERS_SORT_FIELD2" => "id",
+		"OFFERS_SORT_ORDER" => "asc",
+		"OFFERS_SORT_ORDER2" => "desc",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Товары",
+		"PAGE_ELEMENT_COUNT" => "100000000",
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",
+		"PRICE_CODE" => array(
+			0 => "BASE",
+		),
+		"PRICE_VAT_INCLUDE" => "Y",
+		"PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
+		"PRODUCT_DISPLAY_MODE" => "N",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRODUCT_PROPERTIES" => array(
+			0 => "BRAND",
+			1 => "CLASSES",
+		),
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false}]",
+		"PRODUCT_SUBSCRIPTION" => "Y",
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PROPERTY_CODE_MOBILE" => "",
+		"RCM_PROD_ID" => $_REQUEST["PRODUCT_ID"],
+		"RCM_TYPE" => "personal",
+		"SECTION_CODE" => "",
+		"SECTION_CODE_PATH" => "",
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"SECTION_URL" => "",
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SEF_MODE" => "N",
+		"SEF_RULE" => "",
+		"SET_BROWSER_TITLE" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "N",
+		"SET_META_KEYWORDS" => "N",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "N",
+		"SHOW_404" => "N",
+		"SHOW_ALL_WO_SECTION" => "N",
+		"SHOW_CLOSE_POPUP" => "N",
+		"SHOW_DISCOUNT_PERCENT" => "N",
+		"SHOW_FROM_SECTION" => "N",
+		"SHOW_MAX_QUANTITY" => "N",
+		"SHOW_OLD_PRICE" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"SHOW_SLIDER" => "Y",
+		"SLIDER_INTERVAL" => "3000",
+		"SLIDER_PROGRESS" => "N",
+		"TEMPLATE_THEME" => "blue",
+		"USE_ENHANCED_ECOMMERCE" => "N",
+		"USE_MAIN_ELEMENT_SECTION" => "N",
+		"USE_PRICE_COUNT" => "N",
+		"USE_PRODUCT_QUANTITY" => "N",
+		"ON_MAIN" => "Y",
+		"NOT_SHOW_PRICE_FILES" => "Y"
+	),
+	false,
+	array(
+	"ACTIVE_COMPONENT" => "N"
+	)
+);
+//}?>
+
+            <?$GLOBALS["arLandingSections_index"] = array("PROPERTY_SECTION" => 119, "PROPERTY_SHOW_ON_MAIN_VALUE" => "Да"); ?>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "concrete_grades",
+                array(
+                    "IBLOCK_TYPE" => "aspro_max_catalog",
+                    "IBLOCK_ID" => "48",
+                    "VIEW_TYPE" => "normal",
+                    "NEWS_COUNT" => "999",
+                    "SHOW_COUNT" => "10",
+                    "SHOW_COUNT_MOBILE" => "3",
+                    "COMPARE_FIELD" => "FILTER_URL",
+                    "COMPARE_PROP" => "Y",
+                    "SORT_BY1" => "SORT",
+                    "SORT_ORDER1" => "ASC",
+                    "SORT_BY2" => "ID",
+                    "SORT_ORDER2" => "DESC",
+                    "FILTER_NAME" => "arLandingSections_index",
+                    "FIELD_CODE" => array(
+                        0 => "DETAIL_PICTURE",
+                        1 => "PREVIEW_PICTURE",
+                    ),
+                    "PROPERTY_CODE" => array(
+                        0 => "LINK",
+                        1 => "",
+                    ),
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "AJAX_MODE" => "N",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "3600000",
+                    "SEF_CATALOG_URL" => "#SECTION_CODE_PATH#/filter/#SMART_FILTER_PATH#/apply/",
+                    "CACHE_FILTER" => "Y",
+                    "CACHE_GROUPS" => "N",
+                    "PREVIEW_TRUNCATE_LEN" => "",
+                    "ACTIVE_DATE_FORMAT" => "j F Y",
+                    "SET_TITLE" => "N",
+                    "SET_STATUS_404" => "N",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                    "ADD_SECTIONS_CHAIN" => "N",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "INCLUDE_SUBSECTIONS" => "Y",
+                    "PAGER_TEMPLATE" => "",
+                    "DISPLAY_TOP_PAGER" => "N",
+                    "DISPLAY_BOTTOM_PAGER" => "N",
+                    "PAGER_TITLE" => "",
+                    "PAGER_SHOW_ALWAYS" => "N",
+                    "PAGER_DESC_NUMBERING" => "N",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                    "PAGER_SHOW_ALL" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "COMPONENT_TEMPLATE" => "next",
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_META_DESCRIPTION" => "N",
+                    "SET_LAST_MODIFIED" => "N",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+                    "TITLE_BLOCK" => "",
+                    "SHOW_404" => "N",
+                    "MESSAGE_404" => ""
+                ),
+                false, array("HIDE_ICONS" => "Y")
+            );?>  
+                    
+            <div class="content_wrapper_block">
+            <div class="maxwidth-theme fast-order-box">
+            <?php $APPLICATION->IncludeFile("/include/about-factory.php");?>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:form.result.new",
+                "",
+                Array(
+                    "CACHE_TIME" => "3600",
+                    "CACHE_TYPE" => "A",
+                    "CHAIN_ITEM_LINK" => "",
+                    "CHAIN_ITEM_TEXT" => "",
+                    "COMPOSITE_FRAME_MODE" => "A",
+                    "COMPOSITE_FRAME_TYPE" => "AUTO",
+                    "EDIT_URL" => "",
+                    "IGNORE_CUSTOM_TEMPLATE" => "N",
+                    "LIST_URL" => "",
+                    "SEF_MODE" => "N",
+                    "SUCCESS_URL" => "",
+                    "USE_EXTENDED_ERRORS" => "N",
+                    "VARIABLE_ALIASES" => Array("RESULT_ID"=>"RESULT_ID","WEB_FORM_ID"=>"WEB_FORM_ID"),
+                    "WEB_FORM_ID" => "13",
+                    "SEF_MODE" => "N",
+                    "AJAX_MODE" => "Y",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "N",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                )
+            );?>
+        </div>
+        </div>
+
+		<?endif;?>
+		<?//STORIES?>
+		<?if($optionCode == "STORIES"):?>
+			<?global $bShowStories, $bStoriesIndexClass;?>
+			<?if($bShowStories):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bStoriesIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//TIZERS_INDEX?>
+		<?if($optionCode == "TIZERS"):?>
+			<?global $bShowTizers, $bTizersIndexClass;?>
+			<?if($bShowTizers):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bTizersIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//CATALOG_SECTIONS?>
+		<?/*if($optionCode == "CATALOG_SECTIONS"):?>
+			<?global $bShowCatalogSections, $bCatalogSectionsIndexClass;?>
+            <?php if (!empty($_GET['test'])) {
+                print_r([$optionCode, $bCatalogSectionsIndexClass, $subtype, ($key+1), $strTemplateName]);
+            }?>
+			<?if($bShowCatalogSections):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bCatalogSectionsIndexClass;?> js-load-block loader_circle" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>" data-file="<?=SITE_DIR;?>include/mainpage/components/<?=$subtype;?>/<?=$strTemplateName;?>.php">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;*/?>
+
+		<?//CATALOG_TAB?>
+		<?if($optionCode == "CATALOG_TAB"):?>
+			<?global $bShowCatalogTab, $bCatalogTabIndexClass;?>
+            <div class="drag-block container sertificate-index" data-order="5">
+                <div class="maxwidth-theme ">
+                    <h2>Декларация ГОСТ</h2>
+                    <?
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:news.list",
+                        "slider_sertificate",
+                        array(
+                            "IBLOCK_TYPE" => "aspro_max_content",
+                            "IBLOCK_ID" => "3",
+                            "NEWS_COUNT" => "20",
+                            "SORT_BY1" => "ACTIVE_FROM",
+                            "SORT_ORDER1" => "DESC",
+                            "SORT_BY2" => "SORT",
+                            "SORT_ORDER2" => "ASC",
+                            "FILTER_NAME" => "",
+                            "FIELD_CODE" => array(
+                                0 => "",
+                                1 => "",
+                            ),
+                            "PROPERTY_CODE" => array(
+                                0 => "",
+                                1 => "",
+                            ),
+                            "CHECK_DATES" => "Y",
+                            "DETAIL_URL" => "",
+                            "AJAX_MODE" => "N",
+                            "AJAX_OPTION_JUMP" => "N",
+                            "AJAX_OPTION_STYLE" => "Y",
+                            "AJAX_OPTION_HISTORY" => "N",
+                            "AJAX_OPTION_ADDITIONAL" => "",
+                            "CACHE_TYPE" => "A",
+                            "CACHE_TIME" => "36000000",
+                            "CACHE_FILTER" => "N",
+                            "CACHE_GROUPS" => "Y",
+                            "PREVIEW_TRUNCATE_LEN" => "",
+                            "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                            "SET_TITLE" => "N",
+                            "SET_BROWSER_TITLE" => "N",
+                            "SET_META_KEYWORDS" => "N",
+                            "SET_META_DESCRIPTION" => "N",
+                            "SET_LAST_MODIFIED" => "N",
+                            "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                            "ADD_SECTIONS_CHAIN" => "N",
+                            "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                            "PARENT_SECTION" => "",
+                            "PARENT_SECTION_CODE" => "",
+                            "INCLUDE_SUBSECTIONS" => "Y",
+                            "STRICT_SECTION_CHECK" => "N",
+                            "SHOW_DATE" => "N",
+                            "COMPOSITE_FRAME_MODE" => "A",
+                            "COMPOSITE_FRAME_TYPE" => "AUTO",
+                            "PAGER_TEMPLATE" => ".default",
+                            "DISPLAY_TOP_PAGER" => "N",
+                            "DISPLAY_BOTTOM_PAGER" => "Y",
+                            "PAGER_TITLE" => "Новости",
+                            "PAGER_SHOW_ALWAYS" => "N",
+                            "PAGER_DESC_NUMBERING" => "N",
+                            "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                            "PAGER_SHOW_ALL" => "N",
+                            "PAGER_BASE_LINK_ENABLE" => "N",
+                            "SET_STATUS_404" => "N",
+                            "SHOW_404" => "N",
+                            "MESSAGE_404" => ""
+                        ),
+                        false
+                    );
+                    ?>
+                </div>
+<div class="maxwidth-theme home-uslugi-block" >
+				<h2 class="top_block_title uslugi-gallery-caption">Услуги</h2>
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:news.list",
+                    "front_news_slider",
+                    Array(
+                        "IMAGE_CATALOG_POSITION" => "left",
+                        "SHOW_CHILD_SECTIONS" => "Y",
+                        "DEPTH_LEVEL" => 1,
+                        "SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
+                        "IBLOCK_TYPE"	=>	"aspro_max_content",
+                        "IBLOCK_ID"	=>	"34",
+                        "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                        "NEWS_COUNT"	=>	"8",
+                        "SORT_BY1"	=>	"SORT",
+                        "SORT_ORDER1"	=>	"ASC",
+                        "SORT_BY2"	=>	"ID",
+                        "SORT_ORDER2"	=>	"DESC",
+                        "INCLUDE_SUBSECTIONS" => "N",
+                        "FIELD_CODE" => array(
+                            0 => "NAME",
+                            1 => "PREVIEW_PICTURE",
+                        ),
+                        "PROPERTY_CODE" => array(
+                            0 => "PRICE_OLD",
+                            1 => "PRICE",
+                            2 => "PROP_1",
+                            3 => "PROP_2",
+                            4 => "",
+                        ),
+                        "CACHE_TYPE" => "A",
+                        "CACHE_TIME" => "36000000",
+                        "CACHE_FILTER" => "N",
+                        "CACHE_GROUPS" => "Y",
+                        "SET_LAST_MODIFIED" => "N",
+                        "SET_STATUS_404" => "N",
+                        "SET_TITLE" => "N",
+                    "CENTERED" => "Y",
+                    "SIZE_IN_ROW" => "4",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+					'ALL_BLOCK_BG' => 'Y',
+					'TITLE_SHOW_FON' => 'N',
+          ),
+                    $component
+                );?>
+</div>
+<div class="maxwidth-theme home-video-gallery-block" >
+<?
+	$GLOBALS['SECTION_VIDEO_CODE'] = array('UF_WHERE2SHOW' => 52);
+    $APPLICATION->IncludeComponent(
+                    "bitrix:highloadblock.list",
+                    "gallery",
+                    array(
+					"BLOCK_ID" => 13, 
+					"PAGEN_ID" => "", 
+					"FILTER_NAME" => "SECTION_VIDEO_CODE",
+                    ),
+                    false
+                );
+	
+?>
+</div>
+            </div>
+			<?if($bShowCatalogTab):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bCatalogTabIndexClass;?> js-load-block loader_circle" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>" data-file="<?=SITE_DIR;?>include/mainpage/components/<?=$subtype;?>/<?=$strTemplateName;?>.php">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//MIDDLE_ADV?>
+		<?if($optionCode == "MIDDLE_ADV"):?>
+			<?global $bShowMiddleAdvBottomBanner, $bMiddleAdvIndexClass;?>
+			<?if($bShowMiddleAdvBottomBanner):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bMiddleAdvIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//FLOAT_BANNERS?>
+		<?if($optionCode == "FLOAT_BANNERS"):?>
+			<?global $bShowFloatBanners, $bFloatBannersIndexClass;?>
+			<?if($bShowFloatBanners):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bFloatBannersIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//SALE?>
+		<?if($optionCode == "SALE"):?>
+			<?global $bShowSale, $bSaleIndexClass;?>
+			<?if($bShowSale):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bSaleIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+                    <?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+                </div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//COLLECTIONS?>
+		<?if($optionCode == "COLLECTIONS"):?>
+			<?global $bShowCollection, $bCollectionIndexClass;?>
+			<?if($bShowCollection):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bCollectionIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//LOOKBOOKS?>
+		<?if($optionCode == "LOOKBOOKS"):?>
+			<?global $bShowLookbook, $bLookbookIndexClass;?>
+			<?if($bShowLookbook):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bLookbookIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//REVIEWS?>
+		<?if($optionCode == "REVIEWS"):?>
+			<?global $bShowReview, $bReviewIndexClass;?>
+			<?if($bShowReview):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bReviewIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//NEWS?>
+		<?if($optionCode == "NEWS"):?>
+			<?global $bShowNews, $bNewsIndexClass;?>
+			<?if($bShowNews):?>
+				<div class="drag-block container grey <?=$optionCode?> <?=$bNewsIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//BLOG?>
+		<?if($optionCode == "BLOG"):?>
+			<?global $bShowBlog, $bBlogIndexClass?>
+			<?//if($bShowBlog):?>
+            <?if(false):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bBlogIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+
+            <div class="drag-block container <?=$optionCode?> <?=$bBlogIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:news.list", 
+                    "front_news_slider", 
+                    array(
+                        'IBLOCK_TYPE' => 'aspro_max_content',
+                        'IBLOCK_ID' => '15',
+                        'NEWS_COUNT' => '2000',
+                        'SORT_BY1' => 'SORT',
+                        'SORT_ORDER1' => 'ASC',
+                        'SORT_BY2' => 'ID',
+                        'SORT_ORDER2' => 'DESC',
+                        'FILTER_NAME' => 'arProjectFilter',
+                        'FIELD_CODE' => array
+                            (
+                                0 => 'NAME',
+                                1 => 'PREVIEW_TEXT',
+                                2 => 'PREVIEW_PICTURE',
+                                3 => ''
+                            ),
+                        'PROPERTY_CODE' => array
+                            (
+                                0 => '',
+                                1 => ''
+                            ),
+                        'CHECK_DATES' => 'Y',
+                        'DETAIL_URL' => '/projects/#SECTION_CODE_PATH#/#ELEMENT_CODE#/',
+                        'SECTION_URL' => '/projects/#SECTION_CODE_PATH#/',
+                        'IBLOCK_URL' => '/projects/',
+                        'AJAX_MODE' => 'N',
+                        'AJAX_OPTION_JUMP' => 'N',
+                        'AJAX_OPTION_STYLE' => 'Y',
+                        'AJAX_OPTION_HISTORY' => 'N',
+                        'CACHE_TYPE' => 'A',
+                        'CACHE_TIME' => '100000',
+                        'CACHE_FILTER' => 'Y',
+                        'CACHE_GROUPS' => 'N',
+                        'PREVIEW_TRUNCATE_LEN' => '',
+                        'ACTIVE_DATE_FORMAT' => 'j F Y',
+                        'SET_TITLE' => 'N',
+                        'SET_STATUS_404' => 'N',
+                        'INCLUDE_IBLOCK_INTO_CHAIN' => 'N',
+                        'ADD_SECTIONS_CHAIN' => 'Y',
+                        'HIDE_LINK_WHEN_NO_DETAIL' => 'N',
+                        'PARENT_SECTION' => '',
+                        'PARENT_SECTION_CODE' => '',
+                        'DISPLAY_TOP_PAGER' => 'N',
+                        'DISPLAY_BOTTOM_PAGER' => 'N',
+                        'PAGER_TITLE' => 'Новости',
+                        'PAGER_SHOW_ALWAYS' => 'N',
+                        'PAGER_TEMPLATE' => '.default',
+                        'PAGER_DESC_NUMBERING' => 'N',
+                        'PAGER_DESC_NUMBERING_CACHE_TIME' => '36000',
+                        'PAGER_SHOW_ALL' => 'N',
+                        'DISPLAY_DATE' => '',
+                        'DISPLAY_NAME' => 'N',
+                        'IMG_POSITION' => 'right',
+                        'DISPLAY_PICTURE' => '',
+                        'DISPLAY_PREVIEW_TEXT' => '',
+                        'AJAX_OPTION_ADDITIONAL' => '',
+                        'COMPONENT_TEMPLATE' => 'front_news_slider',
+                        'SET_META_KEYWORDS' => 'Y',
+                        'SET_META_DESCRIPTION' => 'Y',
+                        'INCLUDE_SUBSECTIONS' => 'Y',
+                        'STRICT_SECTION_CHECK' => 'N',
+                        'TITLE_BLOCK' => 'Наши проекты',
+                        'TITLE_BLOCK_ALL' => '',
+                        'ALL_URL' => '',
+                        'SIZE_IN_ROW' => '4',
+                        'TYPE_IMG' => 'lg',
+                        'SHOW_SECTION_NAME' => 'Y',
+                        'BORDERED' => 'Y',
+                        'FON_BLOCK_2_COLS' => 'N',
+                        'BG_POSITION' => 'center',
+                        'INCLUDE_FILE' => '',
+                        'SHOW_SUBSCRIBE' => 'N',
+                        'TITLE_SHOW_FON' => 'N',
+                        'TITLE_SUBSCRIBE' => '',
+                        'PAGER_BASE_LINK_ENABLE' => 'N',
+                        'SHOW_404' => 'N',
+                        'IS_AJAX' => '',
+                        'MESSAGE_404' => '',
+                        'USE_PERMISSIONS' => 'N',
+                        'GROUP_PERMISSIONS' => '',
+                        'USE_BG_IMAGE_ALTERNATE' => 'N',
+                        'ALL_BLOCK_BG' => 'Y',
+                        'USE_SECTIONS_TABS' => 'N',
+                        'USE_DATE_MIX_TABS' => 'N',
+                    ),
+                    false
+                );?>
+            </div>
+		<?endif;?>
+
+
+		<?//BOTTOM_BANNERS?>
+		<?if($optionCode == "BOTTOM_BANNERS"):?>
+			<?global $bShowBottomBanner, $bBottomBannersIndexClass;?>
+			<?if($bShowBottomBanner):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bBottomBannersIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//COMPANY_TEXT?>
+		<?if($optionCode == "COMPANY_TEXT"):?>
+			<?global $bShowCompany, $bCompanyTextIndexClass;?>
+			<?if($bShowCompany):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bCompanyTextIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//MAPS?>
+		<?if($optionCode == "MAPS"):?>
+			<?global $bShowMaps, $bMapsIndexClass;?>
+			<?if($bShowMaps):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bMapsIndexClass;?> js-load-block loader_circle" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>" data-file="<?=SITE_DIR;?>include/mainpage/components/<?=$subtype;?>/<?=$strTemplateName;?>.php">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//FAVORIT_ITEM?>
+		<?if($optionCode == "FAVORIT_ITEM"):?>
+			<?global $bShowFavoritItem, $bFavoritItemIndexClass;?>
+
+			<?if($bShowFavoritItem):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bFavoritItemIndexClass;?> js-load-block loader_circle" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>" data-file="<?=SITE_DIR;?>include/mainpage/components/<?=$subtype;?>/<?=$strTemplateName;?>.php">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//BRANDS?>
+		<?if($optionCode == "BRANDS"):?>
+			<?global $bShowBrands, $bBrandsIndexClass;?>
+			<?if($bShowBrands):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bBrandsIndexClass;?>" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName, true);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+		<?//INSTAGRAMM?>
+		<?if($optionCode == "INSTAGRAMM"):?>
+			<?global $bShowInstagramm, $bInstagrammIndexClass;?>
+			<?if($bShowInstagramm):?>
+				<div class="drag-block container <?=$optionCode?> <?=$bInstagrammIndexClass;?> js-load-block loader_circle" data-class="<?=$subtype?>_drag" data-order="<?=++$key;?>" data-file="<?=SITE_DIR;?>include/mainpage/components/<?=$subtype;?>/<?=$strTemplateName;?>.php">
+					<?=CMax::ShowPageType('mainpage', $subtype, $strTemplateName);?>
+				</div>
+			<?endif;?>
+		<?endif;?>
+
+	<?endforeach;?>
+
+
+<?endif;?>

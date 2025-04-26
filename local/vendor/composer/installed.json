@@ -1,0 +1,49 @@
+[
+    {
+        "name": "zadarma/user-api-v1",
+        "version": "v1.1.6",
+        "version_normalized": "1.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zadarma/user-api-v1.git",
+            "reference": "1b11f29ad47aa43e20f0434f7d8f2e53c8f1f626"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zadarma/user-api-v1/zipball/1b11f29ad47aa43e20f0434f7d8f2e53c8f1f626",
+            "reference": "1b11f29ad47aa43e20f0434f7d8f2e53c8f1f626",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.5.0"
+        },
+        "time": "2020-11-26T22:33:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zadarma_API\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Zadarma",
+                "email": "github@zadarma.com"
+            }
+        ],
+        "description": "PHP class for Zadarma API",
+        "homepage": "https://github.com/zadarma/user-api-v1",
+        "keywords": [
+            "api",
+            "free calls",
+            "pbx",
+            "sip",
+            "zadarma"
+        ]
+    }
+]

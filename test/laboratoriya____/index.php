@@ -1,0 +1,1047 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("tags", "Испытание бетона, Лаборатория, Контроль");
+$APPLICATION->SetPageProperty("description", "Независимые лабораторные испытания [экспертиза] и контроль прочности бетона, бетонных смесей и цементных строительных растворов неразрушающим методом. Выезд лаборанта к заказчику на стройку. Взятие образцов кубиков бетона для испытаний. Выдача протокола испытания для оформления документов КС-2, КС-3. Телефон: #TEL_PHONE#");
+//$APPLICATION->SetPageProperty("keywords", "Строительная лаборатория бетона");
+$APPLICATION->SetPageProperty("title", "Лаборатория бетона и независимой строительной экспертизы в #REGION_NAME_DECLINE_PP# | «#SELECT_3#»");
+$APPLICATION->SetPageProperty("viewed_show", "Y");
+$APPLICATION->SetTitle("Аккредитованная лаборатория строительного контроля в #REGION_NAME_DECLINE_PP#");
+?><?$APPLICATION->IncludeComponent(
+	"bitrix:news", 
+	"services", 
+	array(
+		"ADD_DETAIL_TO_SLIDER" => "Y",
+		"ADD_ELEMENT_CHAIN" => "Y",
+		"ADD_PICT_PROP" => "",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"BG_POSITION" => "center",
+		"BLOCK_BLOG_NAME" => "Статьи",
+		"BLOCK_BRANDS_NAME" => "Марки бетона",
+		"BLOCK_LANDINGS_NAME" => "Коллекции",
+		"BLOCK_NEWS_NAME" => "Новости",
+		"BLOCK_PARTNERS_NAME" => "Наши клиенты",
+		"BLOCK_PROJECTS_NAME" => "Проекты",
+		"BLOCK_REVIEWS_NAME" => "Отзывы",
+		"BLOCK_SERVICES_NAME" => "Услуги",
+		"BLOCK_STAFF_NAME" => "Сотрудники",
+		"BLOCK_TIZERS_NAME" => "",
+		"BLOCK_VACANCY_NAME" => "Вакансии",
+		"BLOG_TITLE" => "Комментарии",
+		"BROWSER_TITLE" => "-",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "N",
+		"CACHE_TIME" => "100000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"COMMENTS_COUNT" => "5",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"CONVERT_CURRENCY" => "N",
+		"CURRENCY_ID" => "RUB",
+		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"DETAIL_BLOCKS_ALL_ORDER" => "tizers,form_order,desc,char,gallery,goods,docs,services,news,vacancy,blog,reviews,projects,partners,staff,brands,landings,comments",
+		"DETAIL_BLOG_EMAIL_NOTIFY" => "N",
+		"DETAIL_BLOG_URL" => "catalog_comments",
+		"DETAIL_BLOG_USE" => "N",
+		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
+		"DETAIL_DISPLAY_TOP_PAGER" => "N",
+		"DETAIL_FB_USE" => "N",
+		"DETAIL_FIELD_CODE" => array(
+			0 => "PREVIEW_TEXT",
+			1 => "DETAIL_TEXT",
+			2 => "DETAIL_PICTURE",
+			3 => "",
+		),
+		"DETAIL_LINKED_GOODS_SLIDER" => "Y",
+		"DETAIL_PAGER_SHOW_ALL" => "Y",
+		"DETAIL_PAGER_TEMPLATE" => "",
+		"DETAIL_PAGER_TITLE" => "Страница",
+		"DETAIL_PROPERTY_CODE" => array(
+			0 => "LINK_BRANDS",
+			1 => "LINK_VACANCY",
+			2 => "FORM_QUESTION",
+			3 => "FORM_ORDER",
+			4 => "LINK_LANDINGS",
+			5 => "LINK_NEWS",
+			6 => "LINK_REVIEWS",
+			7 => "LINK_PARTNERS",
+			8 => "LINK_PROJECTS",
+			9 => "LINK_GOODS",
+			10 => "LINK_STAFF",
+			11 => "LINK_BLOG",
+			12 => "LINK_TIZERS",
+			13 => "LINK_SERVICES",
+			14 => "PROP_3",
+			15 => "PROP_1",
+			16 => "PROP_2",
+			17 => "DOCUMENTS",
+			18 => "PHOTOS",
+			19 => "LINK_SALE",
+			20 => "SIDE_IMAGE",
+			21 => "",
+		),
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"DETAIL_STRICT_SECTION_CHECK" => "N",
+		"DETAIL_USE_COMMENTS" => "N",
+		"DETAIL_VK_USE" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_LINKED_PAGER" => "Y",
+		"DISPLAY_NAME" => "N",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_WISH_BUTTONS" => "Y",
+		"ELEMENT_TYPE_VIEW" => "element_1",
+		"FILE_404" => "",
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_NAME" => "arRegionLink",
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FORM_ID_ORDER_SERVISE" => "",
+		"GALLERY_TYPE" => "small",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"HIDE_NOT_AVAILABLE_OFFERS" => "N",
+		"HIDE_SECTION_NAME" => "Y",
+		"IBLOCK_CATALOG_ID" => "1",
+		"IBLOCK_CATALOG_TYPE" => "-",
+		"IBLOCK_ID" => "22",
+		"IBLOCK_LINK_BLOG_ID" => "17",
+		"IBLOCK_LINK_BRANDS_ID" => "30",
+		"IBLOCK_LINK_LANDINGS_ID" => "",
+		"IBLOCK_LINK_NEWS_ID" => "20",
+		"IBLOCK_LINK_PARTNERS_ID" => "23",
+		"IBLOCK_LINK_PROJECTS_ID" => "15",
+		"IBLOCK_LINK_REVIEWS_ID" => "19",
+		"IBLOCK_LINK_SERVICES_ID" => "22",
+		"IBLOCK_LINK_STAFF_ID" => "16",
+		"IBLOCK_LINK_TIZERS_ID" => "10",
+		"IBLOCK_LINK_VACANCY_ID" => "2",
+		"IBLOCK_TYPE" => "aspro_max_content",
+		"IMAGE_CATALOG_POSITION" => "left",
+		"IMAGE_POSITION" => "left",
+		"IMAGE_WIDE" => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"LANDING_IBLOCK_ID" => "158",
+		"LANDING_SECTION_COUNT" => "10",
+		"LANDING_TITLE" => "Популярные категории",
+		"LINE_ELEMENT_COUNT" => "2",
+		"LINE_ELEMENT_COUNT_LIST" => "3",
+		"LINKED_ELEMENST_PAGE_COUNT" => "20",
+		"LINKED_PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"LIST_FIELD_CODE" => array(
+			0 => "NAME",
+			1 => "PREVIEW_TEXT",
+			2 => "PREVIEW_PICTURE",
+			3 => "DETAIL_TEXT",
+			4 => "",
+		),
+		"LIST_PROPERTY_CODE" => array(
+			0 => "PRICE_OLD",
+			1 => "PRICE",
+			2 => "PROP_1",
+			3 => "PROP_2",
+			4 => "",
+		),
+		"LIST_VIEW" => "slider",
+		"MAX_GALLERY_ITEMS" => "5",
+		"MESSAGE_404" => "",
+		"META_DESCRIPTION" => "-",
+		"META_KEYWORDS" => "-",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Новости",
+		"PREVIEW_REVIEW_TRUNCATE_LEN" => "255",
+		"PREVIEW_TRUNCATE_LEN" => "0",
+		"PRICE_CODE" => array(
+			0 => "BASE",
+		),
+		"SALE_STIKER" => "-",
+		"SECTIONS_TAGS_DEPTH_LEVEL" => "2",
+		"SECTIONS_TYPE_VIEW" => "sections_1",
+		"SECTION_ELEMENTS_TYPE_VIEW" => "list_elements_1",
+		"SECTION_TYPE_VIEW" => "section_1",
+		"SEF_FOLDER" => "/laboratoriya/",
+		"SEF_MODE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_STATUS_404" => "Y",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "Y",
+		"SHOW_ASK_BLOCK" => "N",
+		"SHOW_BORDER_ELEMENT" => "Y",
+		"SHOW_CHILD_SECTIONS" => "Y",
+		"SHOW_COUNT_ELEMENTS" => "Y",
+		"SHOW_DETAIL_LINK" => "Y",
+		"SHOW_DISCOUNT_PERCENT" => "N",
+		"SHOW_DISCOUNT_PERCENT_NUMBER" => "N",
+		"SHOW_DISCOUNT_TIME" => "Y",
+		"SHOW_FILTER_DATE" => "Y",
+		"SHOW_GALLERY_GOODS" => "Y",
+		"SHOW_MAX_ELEMENT" => "N",
+		"SHOW_MEASURE" => "N",
+		"SHOW_OLD_PRICE" => "N",
+		"SHOW_ONE_CLICK_BUY" => "Y",
+		"SHOW_RATING" => "Y",
+		"SHOW_SECTIONS_FILTER" => "Y",
+		"SHOW_SECTION_DESCRIPTION" => "Y",
+		"SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
+		"SIDE_LEFT_BLOCK" => "RIGHT",
+		"SIDE_LEFT_BLOCK_DETAIL" => "FROM_MODULE",
+		"SIZE_IN_ROW" => "4",
+		"SORT_BY1" => "SORT",
+		"SORT_BY2" => "ID",
+		"SORT_ORDER1" => "ASC",
+		"SORT_ORDER2" => "DESC",
+		"STAFF_TYPE_DETAIL" => "list",
+		"STIKERS_PROP" => "-",
+		"STORES" => array(
+			0 => "",
+			1 => "",
+		),
+		"STRICT_SECTION_CHECK" => "N",
+		"S_ASK_QUESTION" => "",
+		"S_ORDER_SERVICE" => "",
+		"S_ORDER_SERVISE" => "",
+		"TAGS_SECTION_COUNT" => "",
+		"TITLE_SHOW_FON" => "Y",
+		"TIZERS_IBLOCK_ID" => "10",
+		"TYPE_IMG" => "lg",
+		"TYPE_LEFT_BLOCK" => "FROM_MODULE",
+		"TYPE_LEFT_BLOCK_DETAIL" => "FROM_MODULE",
+		"T_DOCS" => "",
+		"T_GALLERY" => "",
+		"T_GOODS" => "Собственное современное производство и техника",
+		"T_MAX_LINK" => "",
+		"T_PREV_LINK" => "",
+		"T_PROJECTS" => "",
+		"T_REVIEWS" => "",
+		"T_SERVICES" => "Услуги",
+		"T_STAFF" => "Получите консультацию специалиста",
+		"T_VIDEO" => "",
+		"USE_BG_IMAGE_ALTERNATE" => "Y",
+		"USE_CATEGORIES" => "N",
+		"USE_FILTER" => "Y",
+		"USE_PERMISSIONS" => "N",
+		"USE_RATING" => "N",
+		"USE_REVIEW" => "N",
+		"USE_RSS" => "N",
+		"USE_SEARCH" => "N",
+		"USE_SHARE" => "Y",
+		"VIEW_TYPE" => "row_block",
+		"VIEW_TYPE_SECTION" => "row_block",
+		"COMPONENT_TEMPLATE" => "services",
+		"USE_SUBSCRIBE_IN_TOP" => "N",
+		"LINKED_ELEMENT_TAB_SORT_FIELD" => "sort",
+		"LINKED_ELEMENT_TAB_SORT_ORDER" => "asc",
+		"LINKED_ELEMENT_TAB_SORT_FIELD2" => "id",
+		"LINKED_ELEMENT_TAB_SORT_ORDER2" => "desc",
+		"SORT_REGION_PRICE" => "BASE",
+		"PRICE_VAT_INCLUDE" => "Y",
+		"SEF_URL_TEMPLATES" => array(
+			"news" => "",
+			"section" => "#SECTION_CODE#/",
+			"detail" => "#SECTION_CODE#/#ELEMENT_CODE#/",
+		)
+	),
+	false
+);?>
+
+</div>
+<?
+global $arRegion;
+$curDir = $APPLICATION->GetCurDir();
+$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "PROPERTY_PAGE_URL", "PROPERTY_REVIEWS_CHECK", "PROPERTY_TIZERS_CHECK", "PROPERTY_TIZERS", "PROPERTY_SALE_CHECK", "PROPERTY_SALE_ID", "PROPERTY_CATALOG_CHECK", "PROPERTY_CLIENTS_CHECK", "PROPERTY_CLIENTS", "PROPERTY_STAFF_CHECK", "PROPERTY_STAFF", "PROPERTY_GALLERY_CHECK", "PROPERTY_GALLERY", "PROPERTY_GET_SALE_CHECK", "PROPERTY_SERTIFICATE_CHECK", "PROPERTY_USLUGI_CHECK", "PROPERTY_VOPROS_CHECK", "PROPERTY_OUR_PROJECTS_CHECK", "PROPERTY_OUR_PROJECTS_TITLE", "PROPERTY_OUR_PROJECTS", "PROPERTY_ABOUT_FACTORY_CHECK", "PROPERTY_REVIEWS");
+$arFilter = Array("IBLOCK_ID" => 40, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "PROPERTY_PAGE_URL" => $curDir, "PROPERTY_REGION" => $arRegion["ID"]);
+$res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+$ob = $res->GetNextElement();
+
+if (!$ob) {
+	$ob = $APPLICATION->IncludeFile("/include/extends_page.php", array(
+		'curDir' => $curDir,
+		'arFilter' => $arFilter,
+		'arSelect' => $arSelect,
+	));
+}
+
+if($ob){
+    $arFields = $ob->GetFields();
+
+    if($arFields["PROPERTY_TIZERS_CHECK_VALUE"] == "Y" && !empty($arFields["PROPERTY_TIZERS_VALUE"])){?>
+        <div class="drag-block container TIZERS  grey_block" data-class="tizers_drag" >
+            <?
+            global $arRegionLinkFront;
+            $arRegionLinkFront["ID"] = $arFields["PROPERTY_TIZERS_VALUE"];
+            if(empty($arRegionLinkFront["ID"])){
+                $arRegionLinkFront["ID"] = [82, 72, 74, 75];
+            }
+
+            ?>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "front_tizers",
+                array(
+                    "IBLOCK_TYPE" => "aspro_max_content",
+                    "IBLOCK_ID" => "10",
+                    "NEWS_COUNT" => "4",
+                    "SORT_BY1" => "SORT",
+                    "SORT_ORDER1" => "ASC",
+                    "SORT_BY2" => "ID",
+                    "SORT_ORDER2" => "DESC",
+                    "FILTER_NAME" => "arRegionLinkFront",
+                    "FIELD_CODE" => array(
+                        0 => "PREVIEW_PICTURE",
+                        1 => "PREVIEW_TEXT",
+                        2 => "DETAIL_PICTURE",
+                        3 => "",
+                    ),
+                    "PROPERTY_CODE" => array(
+                        0 => "ICON",
+                        1 => "URL",
+                    ),
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "AJAX_MODE" => "N",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "36000000",
+                    "CACHE_FILTER" => "Y",
+                    "CACHE_GROUPS" => "N",
+                    "PREVIEW_TRUNCATE_LEN" => "250",
+                    "ACTIVE_DATE_FORMAT" => "d F Y",
+                    "SET_TITLE" => "N",
+                    "SHOW_DETAIL_LINK" => "N",
+                    "SET_STATUS_404" => "N",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                    "ADD_SECTIONS_CHAIN" => "N",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "DISPLAY_TOP_PAGER" => "N",
+                    "DISPLAY_BOTTOM_PAGER" => "Y",
+                    "PAGER_TITLE" => "",
+                    "PAGER_SHOW_ALWAYS" => "N",
+                    "PAGER_TEMPLATE" => "ajax",
+                    "PAGER_DESC_NUMBERING" => "N",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "3600",
+                    "PAGER_SHOW_ALL" => "N",
+                    "DISPLAY_DATE" => "Y",
+                    "DISPLAY_NAME" => "Y",
+                    "DISPLAY_PICTURE" => "N",
+                    "DISPLAY_PREVIEW_TEXT" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "COMPONENT_TEMPLATE" => "front_tizers",
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_META_DESCRIPTION" => "N",
+                    "SET_LAST_MODIFIED" => "N",
+                    "INCLUDE_SUBSECTIONS" => "Y",
+                    "STRICT_SECTION_CHECK" => "N",
+                    "TYPE_IMG" => "top",
+                    "CENTERED" => "Y",
+                    "SIZE_IN_ROW" => "4",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+                    "SHOW_404" => "N",
+                    "MOBILE_TEMPLATE" => $GLOBALS['arTheme']['MOBILE_TIZERS']['VALUE'],
+                    "MESSAGE_404" => ""
+                ),
+                false
+            );?>
+        </div>
+    <?}
+
+    if($arFields["PROPERTY_SALE_CHECK_VALUE"] == "Y" && !empty($arFields["PROPERTY_SALE_ID_VALUE"])){?>
+        <div class="drag-block container grey SALE grey_block" data-class="sale_drag" >
+            <?//=CMax::ShowPageType('mainpage', "sale", "block_3_lg_img", true);?>
+            <?
+            global $arRegionLinkFront;
+            $arRegionLinkFront["ID"] = $arFields["PROPERTY_SALE_ID_VALUE"];
+            ?>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "front_sale2",
+                array(
+                    "IBLOCK_TYPE" => "aspro_max_content",
+                    "IBLOCK_ID" => "24",
+                    "NEWS_COUNT" => "3",
+                    "SORT_BY1" => "SORT",
+                    "SORT_ORDER1" => "DESC",
+                    "SORT_BY2" => "SORT",
+                    "SORT_ORDER2" => "ASC",
+                    "FILTER_NAME" => "arRegionLinkFront",
+                    "FIELD_CODE" => array(
+                        0 => "PREVIEW_PICTURE",
+                        1 => "ACTIVE_TO",
+                        2 => "DATE_ACTIVE_FROM",
+                    ),
+                    "PROPERTY_CODE" => array(
+                        0 => "PERIOD",
+                        1 => "SALE_NUMBER",
+                    ),
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "AJAX_MODE" => "N",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "36000000",
+                    "CACHE_FILTER" => "Y",
+                    "CACHE_GROUPS" => "N",
+                    "PREVIEW_TRUNCATE_LEN" => "",
+                    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                    "SET_TITLE" => "N",
+                    "SET_STATUS_404" => "N",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                    "ADD_SECTIONS_CHAIN" => "N",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "DISPLAY_TOP_PAGER" => "N",
+                    "DISPLAY_BOTTOM_PAGER" => "N",
+                    "PAGER_TITLE" => "",
+                    "PAGER_SHOW_ALWAYS" => "N",
+                    "PAGER_TEMPLATE" => "ajax",
+                    "PAGER_DESC_NUMBERING" => "N",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "3600",
+                    "PAGER_SHOW_ALL" => "N",
+                    "DISPLAY_DATE" => "Y",
+                    "DISPLAY_NAME" => "Y",
+                    "DISPLAY_PICTURE" => "N",
+                    "DISPLAY_PREVIEW_TEXT" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "COMPONENT_TEMPLATE" => "front_sale2",
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_META_DESCRIPTION" => "N",
+                    "SET_LAST_MODIFIED" => "N",
+                    "INCLUDE_SUBSECTIONS" => "Y",
+                    "STRICT_SECTION_CHECK" => "N",
+                    "TITLE_BLOCK" => "Выгодные предложения",
+                    "TITLE_BLOCK_ALL" => "Все акции",
+                    "ALL_URL" => "sale/",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+                    "SHOW_404" => "N",
+                    "MOBILE_TEMPLATE" => $GLOBALS['arTheme']['MOBILE_SALE']['VALUE'],
+                    "CHECK_REQUEST_BLOCK" => CMax::checkRequestBlock('sale'),
+                    "NO_MARGIN" => "N",
+                    "TRANSPARENT" => "Y",
+                    "FILLED" => "N",
+                    "SIZE_IN_ROW" => "3",
+                    "TYPE_IMG" => "lg",
+                    "IS_AJAX" => CMax::checkAjaxRequest(),
+                    "MESSAGE_404" => ""
+                ),
+                false
+            );?>
+        </div>
+    <?}
+
+    if($arFields["PROPERTY_CATALOG_CHECK_VALUE"] == "Y"){?>
+        <div class="drag-block container grey CATALOG_TAB  grey_block js-load-block" data-class="catalog_tab_drag"  data-file="<?=SITE_DIR;?>include/mainpage/components/catalog_tab/type_1.php">
+            <?=CMax::ShowPageType('mainpage', "catalog_tab", "type_1", true);?>
+        </div>
+    <?}
+
+    if($arFields["PROPERTY_SERTIFICATE_CHECK_VALUE"] == "Y"){?>
+        <div class="drag-block container sertificate-index" >
+            <div class="maxwidth-theme ">
+                <h3>Сертификаты ГОСТ</h3>
+                <?
+                $APPLICATION->IncludeComponent(
+                    "bitrix:news.list",
+                    "slider_sertificate",
+                    array(
+                        "IBLOCK_TYPE" => "aspro_max_content",
+                        "IBLOCK_ID" => "3",
+                        "NEWS_COUNT" => "20",
+                        "SORT_BY1" => "ACTIVE_FROM",
+                        "SORT_ORDER1" => "DESC",
+                        "SORT_BY2" => "SORT",
+                        "SORT_ORDER2" => "ASC",
+                        "FILTER_NAME" => "",
+                        "FIELD_CODE" => array(
+                            0 => "",
+                            1 => "",
+                        ),
+                        "PROPERTY_CODE" => array(
+                            0 => "",
+                            1 => "",
+                        ),
+                        "CHECK_DATES" => "Y",
+                        "DETAIL_URL" => "",
+                        "AJAX_MODE" => "N",
+                        "AJAX_OPTION_JUMP" => "N",
+                        "AJAX_OPTION_STYLE" => "Y",
+                        "AJAX_OPTION_HISTORY" => "N",
+                        "AJAX_OPTION_ADDITIONAL" => "",
+                        "CACHE_TYPE" => "A",
+                        "CACHE_TIME" => "36000000",
+                        "CACHE_FILTER" => "N",
+                        "CACHE_GROUPS" => "Y",
+                        "PREVIEW_TRUNCATE_LEN" => "",
+                        "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                        "SET_TITLE" => "N",
+                        "SET_BROWSER_TITLE" => "N",
+                        "SET_META_KEYWORDS" => "N",
+                        "SET_META_DESCRIPTION" => "N",
+                        "SET_LAST_MODIFIED" => "N",
+                        "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                        "ADD_SECTIONS_CHAIN" => "N",
+                        "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                        "PARENT_SECTION" => "",
+                        "PARENT_SECTION_CODE" => "",
+                        "INCLUDE_SUBSECTIONS" => "Y",
+                        "STRICT_SECTION_CHECK" => "N",
+                        "SHOW_DATE" => "N",
+                        "COMPOSITE_FRAME_MODE" => "A",
+                        "COMPOSITE_FRAME_TYPE" => "AUTO",
+                        "PAGER_TEMPLATE" => ".default",
+                        "DISPLAY_TOP_PAGER" => "N",
+                        "DISPLAY_BOTTOM_PAGER" => "Y",
+                        "PAGER_TITLE" => "Новости",
+                        "PAGER_SHOW_ALWAYS" => "N",
+                        "PAGER_DESC_NUMBERING" => "N",
+                        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                        "PAGER_SHOW_ALL" => "N",
+                        "PAGER_BASE_LINK_ENABLE" => "N",
+                        "SET_STATUS_404" => "N",
+                        "SHOW_404" => "N",
+                        "MESSAGE_404" => ""
+                    ),
+                    false
+                );
+                ?>
+            </div>
+        </div>
+    <?}?>
+
+    <?php if ($arFields["PROPERTY_OUR_PROJECTS_CHECK_VALUE"] == "Y"):?>
+		<?
+		if (!empty($arFields['PROPERTY_OUR_PROJECTS_VALUE'])) {
+			global $arProjectFilter;
+			$arProjectFilter = array(
+			   'SECTION_ID' => $arFields['PROPERTY_OUR_PROJECTS_VALUE'],
+			);
+		}
+		?>
+		<?$APPLICATION->IncludeComponent(
+	        "bitrix:news.list", 
+	        "front_news_slider", 
+	        array(
+	            'IBLOCK_TYPE' => 'aspro_max_content',
+	            'IBLOCK_ID' => '15',
+	            'NEWS_COUNT' => '2000000',
+	            'SORT_BY1' => 'SORT',
+	            'SORT_ORDER1' => 'ASC',
+	            'SORT_BY2' => 'ID',
+	            'SORT_ORDER2' => 'DESC',
+	            'FILTER_NAME' => 'arProjectFilter',
+	            'FIELD_CODE' => array
+	                (
+	                    0 => 'NAME',
+	                    1 => 'PREVIEW_TEXT',
+	                    2 => 'PREVIEW_PICTURE',
+	                    3 => ''
+	                ),
+	            'PROPERTY_CODE' => array
+	                (
+	                    0 => '',
+	                    1 => ''
+	                ),
+	            'CHECK_DATES' => 'Y',
+	            'DETAIL_URL' => '/projects/#SECTION_CODE_PATH#/#ELEMENT_CODE#/',
+	            'SECTION_URL' => '/projects/#SECTION_CODE_PATH#/',
+	            'IBLOCK_URL' => '/projects/',
+	            'AJAX_MODE' => 'N',
+	            'AJAX_OPTION_JUMP' => 'N',
+	            'AJAX_OPTION_STYLE' => 'Y',
+	            'AJAX_OPTION_HISTORY' => 'N',
+	            'CACHE_TYPE' => 'A',
+	            'CACHE_TIME' => '100000',
+	            'CACHE_FILTER' => 'Y',
+	            'CACHE_GROUPS' => 'N',
+	            'PREVIEW_TRUNCATE_LEN' => '',
+	            'ACTIVE_DATE_FORMAT' => 'j F Y',
+	            'SET_TITLE' => 'N',
+	            'SET_STATUS_404' => 'N',
+	            'INCLUDE_IBLOCK_INTO_CHAIN' => 'N',
+	            'ADD_SECTIONS_CHAIN' => 'Y',
+	            'HIDE_LINK_WHEN_NO_DETAIL' => 'N',
+	            'PARENT_SECTION' => '',
+	            'PARENT_SECTION_CODE' => '',
+	            'DISPLAY_TOP_PAGER' => 'N',
+	            'DISPLAY_BOTTOM_PAGER' => 'N',
+	            'PAGER_TITLE' => 'Новости',
+	            'PAGER_SHOW_ALWAYS' => 'N',
+	            'PAGER_TEMPLATE' => '.default',
+	            'PAGER_DESC_NUMBERING' => 'N',
+	            'PAGER_DESC_NUMBERING_CACHE_TIME' => '36000',
+	            'PAGER_SHOW_ALL' => 'N',
+	            'DISPLAY_DATE' => '',
+	            'DISPLAY_NAME' => 'N',
+	            'IMG_POSITION' => 'right',
+	            'DISPLAY_PICTURE' => '',
+	            'DISPLAY_PREVIEW_TEXT' => '',
+	            'AJAX_OPTION_ADDITIONAL' => '',
+	            'COMPONENT_TEMPLATE' => 'front_news',
+	            'SET_META_KEYWORDS' => 'Y',
+	            'SET_META_DESCRIPTION' => 'Y',
+	            'INCLUDE_SUBSECTIONS' => 'Y',
+	            'STRICT_SECTION_CHECK' => 'N',
+	            'TITLE_BLOCK' => (!empty($arFields['PROPERTY_OUR_PROJECTS_TITLE_VALUE'])) ? $arFields['PROPERTY_OUR_PROJECTS_TITLE_VALUE'] : 'Наши проекты',
+	            'TITLE_BLOCK_ALL' => '',
+	            'ALL_URL' => '',
+	            'SIZE_IN_ROW' => '4',
+	            'TYPE_IMG' => 'lg',
+	            'SHOW_SECTION_NAME' => 'Y',
+	            'BORDERED' => 'Y',
+	            'FON_BLOCK_2_COLS' => 'N',
+	            'BG_POSITION' => 'center',
+	            'INCLUDE_FILE' => '',
+	            'SHOW_SUBSCRIBE' => 'N',
+	            'TITLE_SHOW_FON' => 'N',
+	            'TITLE_SUBSCRIBE' => '',
+	            'PAGER_BASE_LINK_ENABLE' => 'N',
+	            'SHOW_404' => 'N',
+	            'IS_AJAX' => '',
+	            'MESSAGE_404' => '',
+	            'USE_PERMISSIONS' => 'N',
+	            'GROUP_PERMISSIONS' => '',
+	            'USE_BG_IMAGE_ALTERNATE' => 'N',
+	            'ALL_BLOCK_BG' => 'Y',
+	            'USE_SECTIONS_TABS' => 'N',
+	            'USE_DATE_MIX_TABS' => 'N',
+	            'BG_GRAY' => 'Y',
+	        ),
+	        false
+	    );?>
+	<?php endif;?>
+
+
+
+    <?if($arFields["PROPERTY_CLIENTS_CHECK_VALUE"] == "Y" && !empty($arFields["PROPERTY_CLIENTS_VALUE"])){?>
+        <div class="container">
+            <div class="maxwidth-theme">
+                <div class="ordered-block partners with-title">
+                    <div class="ordered-block__title option-font-bold font_lg ">Клиенты</div>
+                    <?$GLOBALS['arrPartnersFilter'] = array('ID' => $arFields["PROPERTY_CLIENTS_VALUE"]);?>
+                    <?$APPLICATION->IncludeComponent(
+                        "bitrix:news.list",
+                        "news-list",
+                        array(
+                            "IBLOCK_TYPE" => "aspro_max_content",
+                            "IBLOCK_ID" => "23",
+                            "NEWS_COUNT" => "20",
+                            "SORT_BY1" => "SORT",
+                            "SORT_ORDER1" => "ASC",
+                            "SORT_BY2" => "ID",
+                            "SORT_ORDER2" => "DESC",
+                            "FILTER_NAME" => "arrPartnersFilter",
+                            "FIELD_CODE" => array(
+                                0 => "NAME",
+                                1 => "DETAIL_PAGE_URL",
+                                2 => "PREVIEW_TEXT",
+                                3 => "PREVIEW_PICTURE",
+                            ),
+                            "PROPERTY_CODE" => array(
+                                0 => "SITE",
+                                1 => "PHONE",
+                            ),
+                            "CHECK_DATES" => "Y",
+                            "DETAIL_URL" => "",
+                            "AJAX_MODE" => "N",
+                            "AJAX_OPTION_JUMP" => "N",
+                            "AJAX_OPTION_STYLE" => "Y",
+                            "AJAX_OPTION_HISTORY" => "N",
+                            "CACHE_TYPE" => "A",
+                            "CACHE_TIME" => "36000000",
+                            "CACHE_FILTER" => "Y",
+                            "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+                            "CACHE_GROUPS" => "N",
+                            "PREVIEW_TRUNCATE_LEN" => "",
+                            "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                            "SET_TITLE" => "N",
+                            "SET_STATUS_404" => "N",
+                            "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                            "ADD_SECTIONS_CHAIN" => "N",
+                            "PARENT_SECTION" => "",
+                            "PARENT_SECTION_CODE" => "",
+                            "INCLUDE_SUBSECTIONS" => "Y",
+                            "PAGER_TEMPLATE" => ".default",
+                            "DISPLAY_TOP_PAGER" => "N",
+                            "DISPLAY_BOTTOM_PAGER" => "Y",
+                            "PAGER_TITLE" => "",
+                            "PAGER_SHOW_ALWAYS" => "N",
+                            "PAGER_DESC_NUMBERING" => "N",
+                            "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                            "PAGER_SHOW_ALL" => "N",
+                            "VIEW_TYPE" => "list",
+                            "IMAGE_POSITION" => "left",
+                            "COUNT_IN_LINE" => "3",
+                            "SHOW_TITLE" => "Y",
+                            "AJAX_OPTION_ADDITIONAL" => "",
+                            "BORDERED" => "Y",
+                            "LINKED_MODE" => "Y",
+                            "HIDE_SECTION_NAME" => "Y",
+                        ),
+                        false, array("HIDE_ICONS" => "Y")
+                    );?>
+                </div></div> </div>
+    <?}
+
+    if($arFields["PROPERTY_REVIEWS_CHECK_VALUE"] == "Y"){?>
+        <div class="drag-block container grey REVIEWS  grey_block" data-class="reviews_drag" style="padding-top: 50px !important;">
+        	<?$GLOBALS['arrReviewsFilter'] = !empty($arFields["PROPERTY_REVIEWS_VALUE"]) ? ['ID' => $arFields["PROPERTY_REVIEWS_VALUE"]] : [];?>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "front_review",
+                array(
+                    "IBLOCK_TYPE" => "aspro_max_content",
+                    "IBLOCK_ID" => "19",
+                    "NEWS_COUNT" => "5",
+                    "SORT_BY1" => "SORT",
+                    "SORT_ORDER1" => "ASC",
+                    "SORT_BY2" => "ID",
+                    "SORT_ORDER2" => "DESC",
+                    "FILTER_NAME" => "arrReviewsFilter",
+                    "FIELD_CODE" => array(
+                        0 => "PREVIEW_TEXT",
+                        1 => "PREVIEW_PICTURE",
+                        2 => "DETAIL_PICTURE",
+                        3 => "",
+                    ),
+                    "PROPERTY_CODE" => array(
+                        0 => "",
+                        1 => "RATING",
+                        2 => "",
+                    ),
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "AJAX_MODE" => "N",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "36000000",
+                    "CACHE_FILTER" => "Y",
+                    "CACHE_GROUPS" => "N",
+                    "PREVIEW_TRUNCATE_LEN" => "250",
+                    "ACTIVE_DATE_FORMAT" => "d F Y",
+                    "SET_TITLE" => "N",
+                    "SHOW_DETAIL_LINK" => "N",
+                    "SET_STATUS_404" => "N",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                    "ADD_SECTIONS_CHAIN" => "N",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "DISPLAY_TOP_PAGER" => "N",
+                    "DISPLAY_BOTTOM_PAGER" => "Y",
+                    "PAGER_TITLE" => "",
+                    "PAGER_SHOW_ALWAYS" => "N",
+                    "PAGER_TEMPLATE" => "ajax",
+                    "PAGER_DESC_NUMBERING" => "N",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "3600",
+                    "PAGER_SHOW_ALL" => "N",
+                    "DISPLAY_DATE" => "Y",
+                    "DISPLAY_NAME" => "Y",
+                    "DISPLAY_PICTURE" => "N",
+                    "DISPLAY_PREVIEW_TEXT" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "COMPONENT_TEMPLATE" => "front_review",
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_META_DESCRIPTION" => "N",
+                    "SET_LAST_MODIFIED" => "N",
+                    "INCLUDE_SUBSECTIONS" => "Y",
+                    "STRICT_SECTION_CHECK" => "N",
+                    "TITLE_BLOCK" => "О нас пишут",
+                    "TITLE_BLOCK_ALL" => "Все отзывы",
+                    "SHOW_ADD_REVIEW" => "Y",
+                    "TITLE_ADD_REVIEW" => "Оставить отзыв",
+                    "ALL_URL" => "company/reviews/",
+                    "PAGER_BASE_LINK_ENABLE" => "N",
+                    "SHOW_404" => "N",
+                    "COMPACT" => "Y",
+                    "SIZE_IN_ROW" => "3",
+                    "MESSAGE_404" => "",
+                    "INCLUDE_FILE" => "",
+                    "COMPOSITE_FRAME_MODE" => "A",
+                    "COMPOSITE_FRAME_TYPE" => "AUTO"
+                ),
+                false
+            );?>
+        </div>
+    <?}?>
+
+    <?php if ($arFields["PROPERTY_ABOUT_FACTORY_CHECK_VALUE"] == "Y"):?>
+	    <div class="content_wrapper_block">
+	        <div class="maxwidth-theme fast-order-box">
+	            <?php $APPLICATION->IncludeFile("/include/about-factory.php");?>
+	        </div>
+	    </div>
+	<?php endif?>
+
+    <?php if($arFields["PROPERTY_GET_SALE_CHECK_VALUE"] == "Y"){?>
+        <div class="content_wrapper_block">
+            <div class="maxwidth-theme fast-order-box">
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:form.result.new",
+                    "",
+                    Array(
+                        "CACHE_TIME" => "3600",
+                        "CACHE_TYPE" => "A",
+                        "CHAIN_ITEM_LINK" => "",
+                        "CHAIN_ITEM_TEXT" => "",
+                        "COMPOSITE_FRAME_MODE" => "A",
+                        "COMPOSITE_FRAME_TYPE" => "AUTO",
+                        "EDIT_URL" => "",
+                        "IGNORE_CUSTOM_TEMPLATE" => "N",
+                        "LIST_URL" => "",
+                        "SEF_MODE" => "N",
+                        "SUCCESS_URL" => "",
+                        "USE_EXTENDED_ERRORS" => "N",
+                        "VARIABLE_ALIASES" => Array("RESULT_ID"=>"RESULT_ID","WEB_FORM_ID"=>"WEB_FORM_ID"),
+                        "WEB_FORM_ID" => "13",
+                        "SEF_MODE" => "N",
+                        "AJAX_MODE" => "Y",
+                        "AJAX_OPTION_JUMP" => "N",
+                        "AJAX_OPTION_STYLE" => "N",
+                        "AJAX_OPTION_HISTORY" => "N",
+                        "AJAX_OPTION_ADDITIONAL" => "",
+                    )
+                );?>
+            </div>
+        </div>
+    <?}
+
+
+    if($arFields["PROPERTY_USLUGI_CHECK_VALUE"] == "Y"){?>
+        <div class="content_wrapper_block">
+            <div class="maxwidth-theme fast-order-box">
+                <div class="ordered-block__title option-font-bold font_lg ">Услуги</div>
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:news.list",
+                    "content-sections",
+                    Array(
+                        "IMAGE_CATALOG_POSITION" => "left",
+                        "SHOW_CHILD_SECTIONS" => "Y",
+                        "DEPTH_LEVEL" => 1,
+                        "SHOW_SECTION_PREVIEW_DESCRIPTION" => "Y",
+                        "IBLOCK_TYPE"	=>	"aspro_max_content",
+                        "IBLOCK_ID"	=>	"34",
+                        "NEWS_COUNT"	=>	"20",
+                        "SORT_BY1"	=>	"SORT",
+                        "SORT_ORDER1"	=>	"ASC",
+                        "SORT_BY2"	=>	"ID",
+                        "SORT_ORDER2"	=>	"DESC",
+                        "INCLUDE_SUBSECTIONS" => "N",
+                        "FIELD_CODE" => array(
+                            0 => "NAME",
+                            1 => "PREVIEW_TEXT",
+                            2 => "PREVIEW_PICTURE",
+                            3 => "DETAIL_TEXT",
+                            4 => "",
+                        ),
+                        "PROPERTY_CODE" => array(
+                            0 => "PRICE_OLD",
+                            1 => "PRICE",
+                            2 => "PROP_1",
+                            3 => "PROP_2",
+                            4 => "",
+                        ),
+                        "CACHE_TYPE" => "A",
+                        "CACHE_TIME" => "36000000",
+                        "CACHE_FILTER" => "N",
+                        "CACHE_GROUPS" => "Y",
+                        "SET_LAST_MODIFIED" => "N",
+                        "SET_STATUS_404" => "N",
+                        "SET_TITLE" => "N",
+                        "INCLUDE_IBLOCK_INTO_CHAIN" => "N"
+                    ),
+                    $component
+                );?>
+            </div>
+        </div>
+    <?}
+
+    if($arFields["PROPERTY_STAFF_CHECK_VALUE"] == "Y" && !empty($arFields["PROPERTY_STAFF_VALUE"])){?>
+        <div class="container">
+            <div class="maxwidth-theme">
+                <div class="ordered-block partners with-title">
+                    <div class="ordered-block__title option-font-bold font_lg ">Сотрудники бетонного завода</div>
+                    <?$GLOBALS['arrStaffFilter'] = array('ID' => $arFields["PROPERTY_STAFF_VALUE"]);?>
+                    <?$APPLICATION->IncludeComponent(
+                        "bitrix:news.list",
+                        "staff_block",
+                        array(
+                            "IBLOCK_TYPE" => "aspro_max_content",
+                            "IBLOCK_ID" => "16",
+                            "NEWS_COUNT" => "20",
+                            "SORT_BY1" => "SORT",
+                            "SORT_ORDER1" => "ASC",
+                            "SORT_BY2" => "ID",
+                            "SORT_ORDER2" => "DESC",
+                            "FILTER_NAME" => "arrStaffFilter",
+                            "FIELD_CODE" => array(
+                                0 => "NAME",
+                                1 => "DETAIL_PAGE_URL",
+                                2 => "PREVIEW_TEXT",
+                                3 => "PREVIEW_PICTURE",
+                            ),
+                            "PROPERTY_CODE" => array(
+                                0 => "POST",
+                                1 => "PHONE",
+                                2 => "EMAIL",
+                                3 => "SEND_MESSAGE_BUTTON",
+                            ),
+                            "CHECK_DATES" => "Y",
+                            "DETAIL_URL" => "",
+                            "AJAX_MODE" => "N",
+                            "AJAX_OPTION_JUMP" => "N",
+                            "AJAX_OPTION_STYLE" => "Y",
+                            "AJAX_OPTION_HISTORY" => "N",
+                            "CACHE_TYPE" => "A",
+                            "CACHE_TIME" => "36000000",
+                            "CACHE_FILTER" => "Y",
+                            "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+                            "CACHE_GROUPS" => "N",
+                            "PREVIEW_TRUNCATE_LEN" => "",
+                            "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                            "SET_TITLE" => "N",
+                            "SET_STATUS_404" => "N",
+                            "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+                            "ADD_SECTIONS_CHAIN" => "N",
+                            "PARENT_SECTION" => "",
+                            "PARENT_SECTION_CODE" => "",
+                            "INCLUDE_SUBSECTIONS" => "Y",
+                            "PAGER_TEMPLATE" => ".default",
+                            "DISPLAY_TOP_PAGER" => "N",
+                            "DISPLAY_BOTTOM_PAGER" => "Y",
+                            "PAGER_TITLE" => "",
+                            "PAGER_SHOW_ALWAYS" => "N",
+                            "PAGER_DESC_NUMBERING" => "N",
+                            "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                            "PAGER_SHOW_ALL" => "N",
+                            "VIEW_TYPE" => "list",
+                            "IMAGE_POSITION" => "left",
+                            "COUNT_IN_LINE" => "3",
+                            "SHOW_TITLE" => "Y",
+                            "AJAX_OPTION_ADDITIONAL" => "",
+                            "BORDERED" => "Y",
+                            "LINKED_MODE" => "Y",
+                        ),
+                        false, array("HIDE_ICONS" => "Y")
+                    );?>
+                </div></div> </div>
+    <?}
+
+
+
+    if($arFields["PROPERTY_VOPROS_CHECK_VALUE"] == "Y"){?>
+        <div class="content_wrapper_block">
+            <div class="maxwidth-theme fast-order-box">
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:form.result.new",
+                    "inline",
+                    Array(
+                        "CACHE_TIME" => "3600",
+                        "CACHE_TYPE" => "A",
+                        "CHAIN_ITEM_LINK" => "",
+                        "CHAIN_ITEM_TEXT" => "",
+                        "COMPOSITE_FRAME_MODE" => "A",
+                        "COMPOSITE_FRAME_TYPE" => "AUTO",
+                        "EDIT_URL" => "result_edit.php",
+                        "IGNORE_CUSTOM_TEMPLATE" => "N",
+                        "LIST_URL" => "result_list.php",
+                        "SEF_MODE" => "N",
+                        "SUCCESS_URL" => "",
+                        "USE_EXTENDED_ERRORS" => "Y",
+                        "VARIABLE_ALIASES" => Array("RESULT_ID"=>"RESULT_ID","WEB_FORM_ID"=>"WEB_FORM_ID"),
+                        "WEB_FORM_ID" => "1"
+                    )
+                );?>
+            </div>
+        </div>
+    <?}
+
+    if($arFields["PROPERTY_GALLERY_CHECK_VALUE"] == "Y" && !empty($arFields["PROPERTY_GALLERY_VALUE"])){?>
+        <?
+//
+        foreach ($arFields["PROPERTY_GALLERY_VALUE"] as $fileID){
+            $arResult['GALLERY_BIG'][] = array(
+                'DETAIL' => ($arPhoto = CFile::GetFileArray($fileID)),
+                'PREVIEW' => CFile::ResizeImageGet($fileID, array('width' => 330, 'height' => 350), BX_RESIZE_IMAGE_PROPORTIONAL_ALT, true),
+                'THUMB' => CFile::ResizeImageGet($fileID , array('width' => 60, 'height' => 60), BX_RESIZE_IMAGE_EXACT, true),
+                'TITLE' => (strlen($arPhoto['DESCRIPTION']) ? $arPhoto['DESCRIPTION'] : (strlen($arResult['DETAIL_PICTURE']['TITLE']) ? $arResult['DETAIL_PICTURE']['TITLE']  :(strlen($arPhoto['TITLE']) ? $arPhoto['TITLE'] : $arResult['NAME']))),
+                'ALT' => (strlen($arPhoto['DESCRIPTION']) ? $arPhoto['DESCRIPTION'] : (strlen($arResult['DETAIL_PICTURE']['ALT']) ? $arResult['DETAIL_PICTURE']['ALT']  : (strlen($arPhoto['ALT']) ? $arPhoto['ALT'] : $arResult['NAME']))),
+            );
+        }
+
+        $bShowSmallGallery = "active";
+
+        ?>
+        <div class="container">
+            <div class="maxwidth-theme">
+
+
+
+                <div class="swipeignore slider_dostavka" style="max-width: 100%; position: relative;">
+                    <div class="owl-carousel owl-theme owl-bg-nav sertificate-slider" data-plugin-options='{"dots": true, "nav": true, "loop": false, "rewind":true, "index": true, "margin": 10, "responsive": {"0":{"items": 1, "autoWidth": false, "nav": true, "margin": 0, "autoHeight": true},"601":{"items": 1, "autoWidth": false, "autoHeight": true},"768":{"items": 2, "autoWidth": true, "autoHeight": true},"992":{"items": 4, "autoWidth": true, "autoHeight": true}, "1200":{"items":4, "autoWidth": true, "autoHeight": true}}}'>
+                        <?foreach($arResult['GALLERY_BIG'] as $i => $arPhoto){?>
+                            <?
+                            if(!empty($arPhoto['PREVIEW']['src'])){?>
+                                <?
+                                $height = $arPhoto['PREVIEW']["height"];
+                                $width = $arPhoto['PREVIEW']["width"];
+                                $newHeight = 350;
+                                $newWidth = floor(($newHeight*$width)/$height);
+
+                                ?>
+                                <div class="item" style="width: <?=$newWidth?>px">
+                                    <a itemscope itemtype="https://schema.org/ImageObject" href="<?=$arPhoto["DETAIL"]["SRC"];?>" data-fancybox="gallery" class="fancy" >
+                                        <img data-replace="<?=$arPhoto["DETAIL"]["SRC"];?>" src="<?=$arPhoto['PREVIEW']['src'];?>" <?=\Helper\CHelperCommon::getSrcSet($arPhoto['DETAIL']['ID'], 537, 350);?> style="width: 100%;" title="<?=$arPhoto['TITLE']?>" alt="<?=$arPhoto['TITLE']?>" decoding="async" itemprop="contentUrl" />
+                                    </a>
+                                </div>
+                            <?}
+                            ?>
+                        <?}?>
+                    </div>
+                </div>
+
+
+            </div></div>
+        <?
+        $libs = ['fancybox'];
+        if ($templateData['USE_SLIDER']) {
+            $libs[] = 'owl_carousel';
+        }?>
+        <?\Aspro\Max\Functions\Extensions::init($libs);?>
+    <?}
+
+
+
+}
+?>
+<div class="container">
+<?php $APPLICATION->IncludeFile("/include/seo_meta.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

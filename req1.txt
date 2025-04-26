@@ -1,0 +1,10083 @@
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+    [1694] => 1
+    [1713] => 1
+)
+
+params: Array
+(
+    [1694] => 1
+    [1713] => 1
+    [1732] => 2
+)
+
+params: Array
+(
+    [id] => 1751
+    [value] => 1
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+params: Array
+(
+)
+
+request: 
+request: Array
+(
+)
+
+request: Array
+(
+)
+
+request: Array
+(
+    [prods] => [{"quantity":1,"id":1694},{"quantity":1,"id":1713},{"quantity":1,"id":1732}]
+)
+
+request: Array
+(
+    [prods] => [{id: 1732, quantity: 1},]
+)
+
+request: Array
+(
+    [prods] => [{"id": 1751, "quantity": 1},]
+)
+
+request: Array
+(
+    [prods] => [{"id": 1617, "quantity": 1},,{"id": 1598, "quantity": 1},,{"id": 1579, "quantity": 1},,{"id": 1524, "quantity": 1},]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},,{"id":1694,"quantity":1},,{"id":1732,"quantity":1},,{"id":1751,"quantity":1},]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1751,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1751,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":36},{"id":1903,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":36},{"id":1903,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":73}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1751,"quantity":1},{"id":1772,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1751,"quantity":1},{"id":1772,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1751,"quantity":1},{"id":1772,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":undefined},{"id":1694,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1},{"id":1694,"quantity":4},{"id":1713,"quantity":4},{"id":1732,"quantity":3},{"id":1751,"quantity":4},{"id":1770,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":2},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":2},{"id":1713,"quantity":2},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1770,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1903,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2279,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2279,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2356,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":733,"quantity":1},{"id":1770,"quantity":4},{"id":1732,"quantity":3},{"id":1815,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1732,"quantity":1},{"id":1751,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":3},{"id":1765,"quantity":1},{"id":1770,"quantity":1},{"id":1896,"quantity":1},{"id":1938,"quantity":3},{"id":2018,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":1},{"id":1713,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1796,"quantity":1},{"id":1770,"quantity":1},{"id":1815,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1732,"quantity":1},{"id":1713,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1},{"id":1945,"quantity":1},{"id":1958,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1},{"id":1945,"quantity":1},{"id":1958,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1},{"id":1945,"quantity":1},{"id":1958,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1},{"id":1945,"quantity":1},{"id":1958,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":2},{"id":1751,"quantity":1},{"id":1815,"quantity":1},{"id":1617,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7},{"id":1751,"quantity":38}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7},{"id":1751,"quantity":38}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":11},{"id":1770,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1713,"quantity":1},{"id":1732,"quantity":1},{"id":1751,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1694,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":733,"quantity":3},{"id":734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1715,"quantity":1},{"id":1734,"quantity":1},{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1734,"quantity":1},{"id":1772,"quantity":1},{"id":734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1734,"quantity":1},{"id":1772,"quantity":1},{"id":734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2},{"id":1753,"quantity":1},{"id":1772,"quantity":1},{"id":1798,"quantity":1},{"id":734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3},{"id":1753,"quantity":1},{"id":1772,"quantity":1},{"id":1798,"quantity":1},{"id":734,"quantity":2},{"id":2018,"quantity":1},{"id":2071,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3},{"id":1753,"quantity":1},{"id":1772,"quantity":1},{"id":1798,"quantity":1},{"id":734,"quantity":2},{"id":2071,"quantity":1},{"id":2018,"quantity":1},{"id":2430,"quantity":9},{"id":2555,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3},{"id":1753,"quantity":1},{"id":1772,"quantity":1},{"id":1798,"quantity":1},{"id":734,"quantity":2},{"id":2071,"quantity":1},{"id":2018,"quantity":1},{"id":2430,"quantity":9},{"id":2555,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":3},{"id":2474,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":4},{"id":1657,"quantity":4},{"id":2516,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1734,"quantity":1},{"id":1715,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1715,"quantity":2},{"id":1734,"quantity":1},{"id":735,"quantity":1},{"id":736,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":1000000000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1715,"quantity":2},{"id":1734,"quantity":1},{"id":735,"quantity":1},{"id":736,"quantity":1},{"id":2474,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":3},{"id":2474,"quantity":1},{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10},{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10},{"id":1772,"quantity":10},{"id":1657,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":56}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2450,"quantity":2},{"id":1734,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":2000},{"id":2841,"quantity":47},{"id":2843,"quantity":1000},{"id":1734,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":2000},{"id":1734,"quantity":28},{"id":2841,"quantity":47},{"id":2843,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1753,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200},{"id":1695,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":31}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200}]
+)
+
+request: Array
+(
+)
+
+request: Array
+(
+    [prods] => [{"id":1952,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":37}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2448,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1657,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":55}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1775,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1},{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1},{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1},{"id":1562,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2591,"quantity":1},{"id":1959,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10},{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1},{"id":1562,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10},{"id":1817,"quantity":11},{"id":1798,"quantity":10},{"id":1498,"quantity":10},{"id":1562,"quantity":7},{"id":1581,"quantity":7},{"id":2451,"quantity":12},{"id":2452,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1939,"quantity":15},{"id":2472,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1817,"quantity":2},{"id":1619,"quantity":7},{"id":2472,"quantity":3},{"id":2591,"quantity":2},{"id":2610,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2481,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":22},{"id":2450,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1657,"quantity":1},{"id":1676,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2474,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1754,"quantity":4},{"id":2448,"quantity":2},{"id":2472,"quantity":2},{"id":1904,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1754,"quantity":4},{"id":1715,"quantity":2},{"id":1619,"quantity":2},{"id":2436,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":210}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2430,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":350}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":110}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":110},{"id":1600,"quantity":350}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2474,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1657,"quantity":1},{"id":1676,"quantity":1},{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6},{"id":1798,"quantity":3},{"id":1581,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2912,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":30},{"id":2451,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":48}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":48}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":29}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2516,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":6},{"id":2008,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":10},{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":12},{"id":1734,"quantity":6},{"id":2842,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":83}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":33}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2528,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":0},{"id":1498,"quantity":56},{"id":1600,"quantity":270}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2430,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2481,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2872,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2872,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2528,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":47},{"id":1772,"quantity":47}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":10},{"id":1581,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2008,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":0},{"id":1798,"quantity":31}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":59.15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2646,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2574,"quantity":3},{"id":1798,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2474,"quantity":26},{"id":2481,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":4500}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2001,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1918,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1500}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1966,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":161}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1966,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":143}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":90}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1676,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4},{"id":1581,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":41}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":733,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":150}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":150}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":2000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":41}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2574,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":408}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":36}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1987,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":34}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1952,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":0},{"id":1734,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2472,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2474,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2481,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":1},{"id":1753,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":93}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2452,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2436,"quantity":1551}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2436,"quantity":1551}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1657,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6549,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2448,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":4762,"quantity":60},{"id":4739,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6562,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7116,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":19}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":55},{"id":733,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12216,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2842,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2842,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2450,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2008,"quantity":1},{"id":1987,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2008,"quantity":1},{"id":1987,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2451,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1734,"quantity":6},{"id":1772,"quantity":1},{"id":1753,"quantity":4},{"id":1798,"quantity":3},{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2892,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2430,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":600}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":604}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":604},{"id":1619,"quantity":3059},{"id":1959,"quantity":8},{"id":12579,"quantity":3440}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":65},{"id":1695,"quantity":20},{"id":1753,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":4934,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2868,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1904,"quantity":119821}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2841,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":48}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6562,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":29}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":65}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2866,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2842,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1753,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1},{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1},{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7748,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12229,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2436,"quantity":1120}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":75000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6549,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":65}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":159}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":45},{"id":1600,"quantity":39}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":5},{"id":1600,"quantity":39}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6588,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":5000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":2},{"id":1581,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":20000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1},{"id":1581,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7943,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3500}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":1},{"id":1638,"quantity":1},{"id":1562,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":5145,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1932,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1911,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":110}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1987,"quantity":33}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":6000}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7892,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1504,"quantity":1},{"id":1695,"quantity":2},{"id":1715,"quantity":2},{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2},{"id":2423,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2449,"quantity":1},{"id":2450,"quantity":1},{"id":2451,"quantity":1},{"id":2452,"quantity":1},{"id":2453,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1676,"quantity":65}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1},{"id":2474,"quantity":1},{"id":2452,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2574,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":4},{"id":1695,"quantity":2},{"id":1715,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":57}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2416,"quantity":34}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":19}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12618,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":140}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7272,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1994,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2453,"quantity":34}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2453,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":54}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2449,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6549,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12086,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":37}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2},{"id":1715,"quantity":2},{"id":1734,"quantity":2},{"id":1753,"quantity":1},{"id":1772,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2416,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":18},{"id":5794,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4904,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1657,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":539}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1},{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1},{"id":2574,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":1},{"id":1772,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":10112,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1772,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":12579,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":733,"quantity":1},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":8},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1619,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1619,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":2892,"quantity":0},{"id":1817,"quantity":20},{"id":1772,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1734,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1772,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1798,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":0},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":1798,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12605,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6990,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1600,"quantity":9},{"id":733,"quantity":1},{"id":2008,"quantity":1},{"id":2452,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7259,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":150}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2873,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5},{"id":2892,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":46}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8549,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7317,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4285,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":0},{"id":2451,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6799,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":125}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":125}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2842,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7735,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7259,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6562,"quantity":240}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":65}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2448,"quantity":1},{"id":2449,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":733,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2892,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":37}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":74}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":0},{"id":7982,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8},{"id":1932,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":133}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1918,"quantity":133}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9910,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1508}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2591,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2844,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1508}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12725,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":21},{"id":7116,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":21},{"id":7116,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1918,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2516,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1600,"quantity":19}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":13161,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13040,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1987,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":13098,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":1734,"quantity":0},{"id":1753,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6458,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":10705,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":13097,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12706,"quantity":1},{"id":2547,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2574,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":72}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":41}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":41}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8536,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13098,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2723,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9982,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13103,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13103,"quantity":5},{"id":13046,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":0},{"id":1619,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":1},{"id":1498,"quantity":1},{"id":2430,"quantity":1},{"id":1973,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2450,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":5685,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":37}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":15.3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13098,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12242,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7787,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":203}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1918,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8575,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2450,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2450,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8471,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6536,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6549,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":23},{"id":13291,"quantity":20},{"id":2842,"quantity":20},{"id":13350,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7660,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":3235,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11402,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2857,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":19}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1715,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7956,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1952,"quantity":611}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":5367,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":5367,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4765,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6406,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6406,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6406,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":5787,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12229,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13098,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13098,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1715,"quantity":3},{"id":1734,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1715,"quantity":3},{"id":1734,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":1715,"quantity":3},{"id":1734,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1753,"quantity":3},{"id":1600,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":5},{"id":1581,"quantity":47}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":27}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1959,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":81}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":57}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7194,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13262,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2843,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13349,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13302,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13042,"quantity":2},{"id":2841,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12725,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11532,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12086,"quantity":5.5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":28}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7956,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2},{"id":1798,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":145}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4897,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11402,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12618,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":90}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7720,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8549,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13340,"quantity":8},{"id":12112,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4929,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":7},{"id":11376,"quantity":7},{"id":11402,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11402,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4931,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":139}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2416,"quantity":4},{"id":2491,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12696,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2843,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":82}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":3556,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":10034,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":12},{"id":1581,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":72}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":72}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2018,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6549,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4700,"quantity":750}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":75}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":5},{"id":1734,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":5},{"id":1619,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6484,"quantity":2},{"id":6562,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":51}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15685,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15685,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6774,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1932,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1},{"id":1734,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9810,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":300}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":570}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":28}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2448,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1918,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1},{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":0},{"id":1581,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7720,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":42}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2886,"quantity":1e 117}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2547,"quantity":1},{"id":2610,"quantity":1e 116}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2547,"quantity":1},{"id":2610,"quantity":1e 116}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":2000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6458,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1705,"quantity":1},{"id":6458,"quantity":1},{"id":1498,"quantity":1},{"id":2857,"quantity":1},{"id":2423,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15662,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":17230,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":10000}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":0},{"id":1498,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2483,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":39}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17401,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":64}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2453,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1676,"quantity":151}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":32}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":46}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":140}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9272,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":825}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":825}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":130}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1932,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15595,"quantity":61}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12079,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16802,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":735,"quantity":1},{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":735,"quantity":1},{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":55}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1000},{"id":22742,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":90}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17393,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1000},{"id":22742,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":42}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":42},{"id":7680,"quantity":0},{"id":7787,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":500},{"id":22742,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":500},{"id":22742,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7956,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1676,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7182,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8692,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13539,"quantity":195}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17426,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":2},{"id":7839,"quantity":11},{"id":15791,"quantity":10},{"id":16730,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":10},{"id":2451,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7865,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":2500}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2448,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11210,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":21}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15705,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":160}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1973,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9982,"quantity":55}]
+)
+
+request: Array
+(
+    [prods] => [{"id":10666,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7155,"quantity":19}]
+)
+
+request: Array
+(
+    [prods] => [{"id":20655,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1730,"quantity":1},{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":22539,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":20691,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16452,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1714,"quantity":1},{"id":1772,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1714,"quantity":1},{"id":1772,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":620}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":16}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6990,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8562,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1714,"quantity":1},{"id":18048,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9982,"quantity":28}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7246,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16760,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12216,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12216,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15741,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15710,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16805,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":20667,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":400}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36076,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7272,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15705,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15705,"quantity":8},{"id":15688,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16990,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15800,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35936,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36605,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":17393,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":707}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9969,"quantity":707}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9969,"quantity":707}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9969,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9969,"quantity":707}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9324,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":0},{"id":15696,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2574,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8008,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15803,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":2},{"id":16671,"quantity":2},{"id":2555,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7969,"quantity":27}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":35}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1939,"quantity":1},{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":36601,"quantity":100},{"id":29120,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":97}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":62}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2481,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":320},{"id":1581,"quantity":210},{"id":2423,"quantity":15770},{"id":1798,"quantity":9425},{"id":1600,"quantity":19771},{"id":1562,"quantity":1636},{"id":2472,"quantity":4750},{"id":2591,"quantity":815},{"id":1952,"quantity":0},{"id":2436,"quantity":580},{"id":1734,"quantity":1650},{"id":1715,"quantity":215}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":320},{"id":1581,"quantity":210},{"id":2423,"quantity":15770},{"id":1798,"quantity":9425},{"id":1600,"quantity":19771},{"id":1562,"quantity":1636},{"id":2472,"quantity":4750},{"id":2591,"quantity":815},{"id":1952,"quantity":0},{"id":2436,"quantity":580},{"id":1734,"quantity":1650},{"id":1715,"quantity":215}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1911,"quantity":1},{"id":1966,"quantity":1},{"id":733,"quantity":1},{"id":734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1911,"quantity":1},{"id":1966,"quantity":1},{"id":733,"quantity":1},{"id":734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2473,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16799,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":21583,"quantity":120}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":301}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2451,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16799,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16802,"quantity":10},{"id":16671,"quantity":20},{"id":16680,"quantity":3},{"id":16678,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15676,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":37076,"quantity":5},{"id":37183,"quantity":4},{"id":37761,"quantity":1},{"id":37186,"quantity":1},{"id":2426,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":31000,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":22216,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":21583,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16942,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":51}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16016,"quantity":141}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16016,"quantity":141}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":34977,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":34962,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":185}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15662,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15662,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15688,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15714,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2453,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12086,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":5},{"id":16671,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16410,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16410,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16395,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16811,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4934,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":13}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":70}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":3},{"id":16669,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16834,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6419,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2430,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13310,"quantity":3},{"id":16397,"quantity":3},{"id":16410,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35932,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1932,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":33684,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3},{"id":2448,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16272,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16284,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16778,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16775,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16775,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9982,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":285}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7735,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13368,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15714,"quantity":14}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16990,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13313,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":32847,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1715,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":1},{"id":2430,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36796,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":31}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16715,"quantity":10},{"id":16843,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2423,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7982,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":69}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9995,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16678,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":6432,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16092,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16092,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15866,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17050,"quantity":4},{"id":13154,"quantity":2},{"id":13374,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15866,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17050,"quantity":4},{"id":13154,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7272,"quantity":11}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13221,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16811,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16575,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16022,"quantity":30},{"id":16775,"quantity":15},{"id":16575,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":26608,"quantity":188}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1987,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16984,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16086,"quantity":1},{"id":16386,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":36608,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7787,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36793,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":8},{"id":1600,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":27}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15815,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13363,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36608,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2453,"quantity":3000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12138,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16028,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16775,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16590,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35928,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15723,"quantity":2000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15723,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16590,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":2000}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15866,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15875,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8549,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16799,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16022,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12112,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35931,"quantity":1038}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16530,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16530,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":32292,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35931,"quantity":1038}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1814,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1814,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16678,"quantity":5},{"id":16676,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17053,"quantity":10},{"id":16775,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17053,"quantity":10},{"id":16775,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15688,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2872,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":13239,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7839,"quantity":27}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":300}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":300},{"id":15696,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1994,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15723,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16704,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":31527,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":31537,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16684,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16578,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":0},{"id":15696,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16578,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16688,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15712,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16678,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16686,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":24},{"id":16686,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1904,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":3124,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":27610,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15788,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":30389,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15676,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15707,"quantity":60}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16700,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":400}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":3},{"id":15698,"quantity":1},{"id":15691,"quantity":1},{"id":15682,"quantity":1},{"id":15670,"quantity":1},{"id":15667,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15673,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15610,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":30994,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":0},{"id":15691,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15712,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7129,"quantity":33}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16239,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16239,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":6642,"quantity":1},{"id":12605,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35931,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15726,"quantity":969}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15705,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":156}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16888,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":34289,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12579,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":21583,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":21583,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":21616,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":1},{"id":15691,"quantity":1},{"id":15698,"quantity":1},{"id":15694,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16802,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":29}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16688,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16688,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":12242,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36608,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16680,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":206},{"id":2591,"quantity":3205},{"id":4937,"quantity":205}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":11744,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15682,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":6},{"id":1734,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":257}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":34}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":4},{"id":15702,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16704,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":44}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":1000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15714,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16680,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1562,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16686,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16808,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":42}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":140}]
+)
+
+request: Array
+(
+    [prods] => [{"id":26211,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":25144,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":26050,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7956,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":38}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16389,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16724,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35943,"quantity":109}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15788,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":44000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16530,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35935,"quantity":3.333333333333333e 80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":120}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16680,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4937,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":31534,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36599,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16903,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7878,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7995,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16692,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12099,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":1500}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":164}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36608,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":20505,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":0},{"id":16682,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16682,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16682,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":11506,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":36599,"quantity":10},{"id":1772,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8562,"quantity":0},{"id":8194,"quantity":23}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15670,"quantity":84}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15729,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35943,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16704,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7852,"quantity":17}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15675,"quantity":7},{"id":16670,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15675,"quantity":7},{"id":16670,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":17115,"quantity":200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":4},{"id":1772,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16696,"quantity":300}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16696,"quantity":300}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":13140,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2926,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":40},{"id":1817,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12242,"quantity":150}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12047,"quantity":163}]
+)
+
+request: Array
+(
+    [prods] => [{"id":9312,"quantity":146}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2659,"quantity":120}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15670,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":3000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":6000}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":1200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":1200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":18}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15682,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":7},{"id":1715,"quantity":20000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15729,"quantity":30}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":28}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35964,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16811,"quantity":162}]
+)
+
+request: Array
+(
+    [prods] => [{"id":37285,"quantity":1200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15723,"quantity":15}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35950,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35933,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35932,"quantity":22}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1},{"id":1600,"quantity":1},{"id":2430,"quantity":1},{"id":1973,"quantity":1},{"id":15700,"quantity":1},{"id":17115,"quantity":1},{"id":2872,"quantity":1},{"id":18092,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35963,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35964,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35964,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":8562,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15667,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35937,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":7},{"id":16673,"quantity":86}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15717,"quantity":24200},{"id":15696,"quantity":48686}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16149,"quantity":8}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1581,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15670,"quantity":50}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":80}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35936,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1498,"quantity":1},{"id":1600,"quantity":1},{"id":2430,"quantity":1},{"id":1973,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35465,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35465,"quantity":400}]
+)
+
+request: Array
+(
+    [prods] => [{"id":3353,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35937,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":45}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1911,"quantity":26}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35931,"quantity":441},{"id":35947,"quantity":0}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":17000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":17000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35937,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15741,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16676,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15698,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15688,"quantity":6510}]
+)
+
+request: Array
+(
+    [prods] => [{"id":4937,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":2436,"quantity":1},{"id":2473,"quantity":180},{"id":2483,"quantity":2000}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35933,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15809,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15815,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":54}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15667,"quantity":690}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1600,"quantity":276}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":24}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":120}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":25}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15694,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2872,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35964,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15702,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":12229,"quantity":220}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15696,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15720,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36706,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7826,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1798,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":6}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1772,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":27136,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1734,"quantity":38}]
+)
+
+request: Array
+(
+    [prods] => [{"id":20892,"quantity":2347}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15691,"quantity":4}]
+)
+
+request: Array
+(
+    [prods] => [{"id":36605,"quantity":2800}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15700,"quantity":0},{"id":15694,"quantity":242}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1817,"quantity":9}]
+)
+
+request: Array
+(
+    [prods] => [{"id":2472,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":320}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1753,"quantity":40}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35951,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35951,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1638,"quantity":28}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":12}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":35935,"quantity":33},{"id":35937,"quantity":0},{"id":35936,"quantity":33}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":15664,"quantity":10}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":1619,"quantity":68},{"id":1817,"quantity":68}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16669,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":7904,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35933,"quantity":3}]
+)
+
+request: Array
+(
+    [prods] => [{"id":35952,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16675,"quantity":20},{"id":16671,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16675,"quantity":20},{"id":16671,"quantity":1}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":16671,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => [{"id":1695,"quantity":980},{"id":1600,"quantity":8200}]
+)
+
+request: Array
+(
+    [prods] => [{"id":15794,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16702,"quantity":5}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16704,"quantity":20}]
+)
+
+request: Array
+(
+    [prods] => []
+)
+
+request: Array
+(
+    [prods] => [{"id":7142,"quantity":2}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16704,"quantity":100}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":7}]
+)
+
+request: Array
+(
+    [prods] => [{"id":16673,"quantity":35}]
+)
+

@@ -1,0 +1,1 @@
+<img src="/include/Скидки.jpg" alt="Скидки" title="Скидки" decoding="async">

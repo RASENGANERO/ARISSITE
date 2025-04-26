@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Прайс", 
+		"/price/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бетон", 
+		"/catalog/beton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Керамзитобетон", 
+		"/catalog/keramzitobeton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Тощий бетон", 
+		"/catalog/toshchiy_beton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Фибробетон", 
+		"/catalog/fibrobeton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гидробетон", 
+		"/catalog/gidrobeton/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бетононасос", 
+		"/catalog/betononasosy/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

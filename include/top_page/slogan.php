@@ -1,0 +1,1 @@
+<object data="/upload/medialibrary/ad4/gost.svg" type="image/svg+xml" width="50" height="50"></object>

@@ -1,0 +1,82 @@
+.about-factory {
+	width: 100%;
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.about-factory-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-factory-left {
+	width: 40%;
+	padding-right: 40px;
+}
+
+.about-factory-right {
+	width: 60%;
+	
+}
+
+.about-factory-right-inner {
+	background: var(--darkerblack_bg_black);
+	display: flex;	
+	align-items: center;
+    box-sizing: border-box;
+    padding: 32px 15px 0;
+    height: 100%;
+}
+
+.about-factory-right .wrapper_inner, .about-factory-right .maxwidth-theme,
+.about-factory-right .content_wrapper_block.front_tizers
+{
+	background: transparent !important;
+	border: none !important;
+}
+
+.about-factory-left .item-shop-detail1 .gallery_wrap .big-gallery-block .item a div {
+  padding-top: 100%;
+}
+
+
+.about-factory-left .item-shop-detail1,
+.about-factory-left .gallery_wrap,
+.about-factory-left .big-gallery-block,
+.about-factory-left .owl-carousel,
+.about-factory-left .owl-stage-outer,
+.about-factory-left .owl-stage,
+.about-factory-left .owl-item,
+.about-factory-left .item,
+.about-factory-left .fancy,
+.about-factory-left .fancy > div
+{
+	height: 100%;
+}
+
+
+.about-factory-left .fancy {
+	display: block;
+}
+
+
+@media screen and (max-width: 1120px) {
+	.about-factory-row {
+		flex-direction: column;
+	}
+
+	.about-factory-left {
+		    max-width: 550px;
+		    margin: 0 auto 40px;
+		    padding-right: 0;
+		    height: 350px;
+		    width: 100%;
+	}
+
+	.about-factory-right {
+		width: 100%;
+		
+	}
+}

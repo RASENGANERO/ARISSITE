@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталог", 
+		"/catalog/", 
+		Array(), 
+		Array("NOT_VISIBLE"=>"Y", "CLASS"=>"catalog wide_menu ", "ICON"=>"icon_catalog"), 
+		"" 
+	),
+	Array(
+		"Прайс", 
+		"/price/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/dostavka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бетонные заводы", 
+		"/contacts/betonnye_zavody/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

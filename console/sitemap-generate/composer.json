@@ -1,0 +1,15 @@
+{
+    "name": "beton-gost/sitemap-generate",
+    "autoload": {
+        "psr-4": {
+            "MoscowBeton\\SitemapGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RuslanKarelin",
+            "email": "ruslankarelin68@yandex.ru"
+        }
+    ],
+    "require": {}
+}
