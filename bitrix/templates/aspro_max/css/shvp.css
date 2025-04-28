@@ -1,0 +1,29 @@
+.header-wrapper .niges-socmenu {
+	margin: 0 auto;
+}
+
+.header-wrapper .right-icons.pull-right.wb {
+	margin-left: auto;
+}
+
+.copy-block .niges-socmenu {
+	display: flex;
+	justify-content: center;
+}
+
+
+.btn_social_shvp a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_social_shvp a:before {
+	font-size: 28px;
+}
+
+div#mobilePhone .niges-socmenu {
+    display: flex;
+    flex-wrap: wrap;
+	line-height: 26px;
+}

@@ -1,0 +1,5 @@
+.video-gallery-item {padding: 15px 0;}
+.video-gallery-item iframe {max-width: 100%}
+.video-gallery-caption {margin-bottom:18px;}
+.maxwidth-theme.section-video-gallery-block {margin-top:40px;}
+.maxwidth-theme.home-video-gallery-block {margin-top:20px;margin-bottom:25px;}

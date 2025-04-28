@@ -1,0 +1,121 @@
+<?
+global $arTheme, $arRegion;
+$logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
+
+
+$desc = 'Отдел продаж Московского бетонного завода';
+$PHONE = '+74951288380';
+$HREF = 'tel:+74951288380';
+if (is_array($arRegion['PROPERTY_PHONES_DESCRIPTION'])){
+	$desc = $arRegion['PROPERTY_PHONES_DESCRIPTION'][0];
+}else{
+	$desc = $arRegion['PROPERTY_PHONES_DESCRIPTION'];
+}
+
+$PHONE = $arRegion['PHONES'][0]['PHONE'];
+$HREF = $arRegion['PHONES'][0]['HREF'];
+
+global $USER;
+if ($USER->IsAdmin()){
+//	$desc = $arRegion['PROPERTY_PHONES_DESCRIPTION'];
+
+//	var_dump($arRegion);
+//die;
+}
+
+?>
+<div class="mobileheader-v1">
+	<div class="burger pull-left">
+		<?=CMax::showIconSvg("burger dark", SITE_TEMPLATE_PATH."/images/svg/burger.svg");?>
+		<?=CMax::showIconSvg("close dark", SITE_TEMPLATE_PATH."/images/svg/Close.svg");?>
+	</div>
+	<div class="logo-block pull-left">
+		<div class="logo<?=$logoClass?>">
+			<a href="/"><img class="lazy" data-replace="/images/logo_new.svg" src="/images/logo_new.svg" data-src="/images/logo_new.svg" width="160"  alt="logo" /></a>
+			<?//=CMax::ShowLogo();?>
+		</div>
+	</div>
+	<div class="right-icons pull-right">
+		<div class="pull-right">
+			<div class="wrap_icon wrap_basket">
+				<?=CMax::ShowBasketWithCompareLink('', 'big', false, false, true);?>
+			</div>
+		</div>
+		<div class="pull-right">
+			<div class="wrap_icon wrap_cabinet">
+				<?=CMax::showCabinetLink(true, false, 'big');?>
+			</div>
+		</div>
+		<div class="pull-right">
+			<div class="wrap_icon">
+				<button class="top-btn inline-search-show twosmallfont">
+					<?=CMax::showIconSvg("search", SITE_TEMPLATE_PATH."/images/svg/Search.svg");?>
+				</button>
+			</div>
+		</div>
+		<div class="pull-right">
+			<!--zadarma-->
+			<div class="wrap_icon wrap_phones">
+				<?// CMax::ShowHeaderMobilePhones("big");?>
+				
+				<!-- noindex -->
+				<button class="top-btn inline-phone-show">
+				<?=self::showIconSvg('phone', SITE_TEMPLATE_PATH.'/images/svg/Phone.svg');?>
+				</button>
+				<div id="mobilePhone" class="dropdown-mobile-phone" style="display: none;">
+					<div class="wrap">
+						<div class="more_phone title">
+							<span class="no-decript dark-color ">Телефоны <?=CMax::showIconSvg("close dark dark-i", SITE_TEMPLATE_PATH."/images/svg/Close.svg");?></span>
+						</div>
+						<div class="more_phone">
+							<a class="dark-color " rel="nofollow" href="<?=$HREF?>"><?=$PHONE?><span><?=$desc?></span></a>
+						</div>
+						<?/*
+						<div class="more_phone">
+							<a class="dark-color " rel="nofollow" href="tel:+79695558858">+7 (969) 555-88-58<span>Диспетчер</span></a>
+						</div>
+						*/?>
+
+
+<!--                        <div class="more_phone">
+							<div class="mobilzadarma">
+<?/*$APPLICATION->IncludeFile(SITE_DIR."include/z_zadarma.php", Array(), Array(
+									"MODE" => "php",
+									"NAME" => "z_zadarma",
+									"TEMPLATE" => "include_area.php",
+								  )
+);*/?>
+
+					        </div>
+                        </div>
+    -->                    <div class="more_phone">
+                            <a class="dark-color " rel="nofollow" href="mailto:<?=$arRegion["PROPERTY_EMAIL_VALUE"][0]?>"><?=$arRegion["PROPERTY_EMAIL_VALUE"][0]?></a>
+                        </div>
+
+                        <?/*
+
+						<div class="more_phone">
+							<span class="dark-color no-decript callback animate-load" data-event="jqm" data-param-form_id="CALLBACK" data-name="callback">Заказать звонок</span>
+						</div>
+				        */?>
+						<div class="niges-socmenu"></div>
+						<span style="display: block;
+font-size: 0.8em;
+font-weight: normal;
+padding: 0 13px;
+color: #999999;
+overflow: hidden;
+text-overflow: ellipsis; line-height: 26px;
+margin-bottom: 15px;">Мессенджеры</span>
+						
+					</div>
+				</div>
+				
+				
+						<!-- /noindex -->
+				
+				
+			</div>
+		</div>
+	</div>
+</div>

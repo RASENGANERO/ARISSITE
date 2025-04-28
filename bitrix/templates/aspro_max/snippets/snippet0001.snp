@@ -1,0 +1,28 @@
+$APPLICATION->IncludeComponent(
+	"ithive:amchartscomponent", 
+	".default", 
+	array(
+		"COMPONENT_TEMPLATE" => ".default",
+		"CHART_ID" => "chart1",
+		"CHART_WIDTH" => "100%",
+		"CHART_HEIGHT" => "300",
+		"CHART_TYPE" => "pie",
+		"COLUMN_COLOR" => "blue",
+		"CHART_NAME" => "Динамика значений за период",
+		"VALUE_AXIS_NAME" => "Значения",
+		"CATEGORY_AXIS_NAME" => "Категории",
+		"VALUE_AXIS_VALUES" => array(
+			0 => "1.9",
+			1 => "2.8",
+			2 => "3.1",
+			3 => "",
+		),
+		"CATEGORY_AXIS_VALUES" => array(
+			0 => "2013",
+			1 => "2014",
+			2 => "2015",
+			3 => "",
+		)
+	),
+	false
+);

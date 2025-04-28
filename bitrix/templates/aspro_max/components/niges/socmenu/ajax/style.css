@@ -1,0 +1,470 @@
+/* NIGES.SOCMENU / SOCIAL NETWORKS and MESSENGERS */
+
+.nsm-fab {line-height:1;-moz-osx-font-smoothing:grayscale;display:inline-block;font-style:normal;-webkit-font-smoothing:antialiased;font-variant:normal;text-rendering:auto;}
+@font-face{font-family:"NSMFontAwesome";font-style:normal;font-weight:normal;font-display:auto;
+	src:url(./afonts-5/fa-brands.eot);
+	src:url(./afonts-5/fa-brands2.eot?#iefix) format("embedded-opentype"),
+	url(./afonts-5/fa-brands.woff2) format("woff2"),
+	url(./afonts-5/fa-brands.woff) format("woff"),
+	url(./afonts-5/fa-brands.ttf) format("truetype"),
+	url(./afonts-5/fa-brands.svg#fontawesome) format("svg")
+}
+.nsm-fab {font-family:"NSMFontAwesome";}
+
+.nsm-fa-tel-var1:before{content:"\f000"}
+.nsm-fa-tel-var2:before{content:"\f001"}
+.nsm-fa-tel-var3:before{content:"\f002"}
+.nsm-fa-tel-var4:before{content:"\f003"}
+.nsm-fa-tel-var5:before{content:"\f004"}
+.nsm-fa-tel-var6:before{content:"\f005"}
+
+.nsm-fa-instagram:before{content:"\f040"}
+.nsm-fa-odnoklassniki:before{content:"\f041"}
+.nsm-fa-vk:before{content:"\f042"}
+.nsm-fa-facebook:before{content:"\f043"}
+.nsm-fa-twitter:before{content:"\f044"}
+.nsm-fa-pinterest:before{content:"\f045"}
+.nsm-fa-youtube:before{content:"\f046"}
+.nsm-fa-tiktok:before{content:"\f047"}
+.nsm-fa-snapchat:before{content:"\f048"}
+.nsm-fa-twitch:before{content:"\f049"}
+.nsm-fa-zen:before{content:"\f04a"}
+
+.nsm-fa-whatsapp:before{content:"\f080"}
+.nsm-fa-telegram:before{content:"\f081"}
+.nsm-fa-viber:before{content:"\f082"}
+.nsm-fa-skype:before{content:"\f083"}
+.nsm-fa-messenger:before{content:"\f084"}
+.nsm-fa-wechat:before{content:"\f085"}
+
+.nsm-fa-vimeo:before{content:"\f050"}
+.nsm-fa-chat:before{content:"\f090"}
+.nsm-fa-email:before{content:"\f091"}
+.nsm-fa-user:before{content:"\f092"}
+.nsm-fa-lock:before{content:"\f094"}
+.nsm-fa-lock3:before{content:"\f096"}
+
+.nsm-fa-behance:before{content:"\f0c0"}
+.nsm-fa-dribbble:before{content:"\f0c1"}
+.nsm-fa-trello:before{content:"\f0c2"}
+.nsm-fa-slack:before{content:"\f0c3"}
+.nsm-fa-b24:before{content:"\f0c4"}
+.nsm-fa-bitrix24:before{content:"\f0c5"}
+.nsm-fa-crm:before{content:"\f0c6"}
+.nsm-fa-amocrm:before{content:"\f0c7"}
+
+.nsm-fa-googledrive:before{content:"\f0d0"}
+.nsm-fa-yandexdisk:before{content:"\f0d1"}
+.nsm-fa-onedrive:before{content:"\f0d2"}
+.nsm-fa-link:before{content:"\f0d5"}
+.nsm-fa-url:before{content:"\f0d6"}
+.nsm-fa-download:before{content:"\f0d7"}
+.nsm-fa-book:before{content:"\f0d9"}
+.nsm-fa-file:before{content:"\f0da"}
+.nsm-fa-pdf:before{content:"\f0db"}
+.nsm-fa-doc:before{content:"\f0dc"}
+.nsm-fa-zip:before{content:"\f0dd"}
+
+.nsm-fa-cart:before{content:"\f100"}
+.nsm-fa-present:before{content:"\f101"}
+.nsm-fa-sale:before{content:"\f102"}
+.nsm-fa-review:before{content:"\f103"}
+.nsm-fa-map:before{content:"\f104"}
+.nsm-fa-search:before{content:"\f105"}
+.nsm-fa-order:before{content:"\f106"}
+.nsm-fa-calc:before{content:"\f107"}
+.nsm-fa-pay:before{content:"\f108"}
+
+.nsm-fa-goods:before{content:"\f11d"}
+.nsm-fa-kazanexpress:before{content:"\f11e"}
+.nsm-fa-beru:before{content:"\f11f"}
+.nsm-fa-avito:before{content:"\f120"}
+.nsm-fa-aliexpress:before{content:"\f121"}
+.nsm-fa-ozon:before{content:"\f122"}
+.nsm-fa-yandexmarket:before{content:"\f123"}
+.nsm-fa-la:before{content:"\f124"}
+.nsm-fa-wb:before{content:"\f125"}
+.nsm-fa-cdek:before{content:"\f126"}
+.nsm-fa-youla:before{content:"\f127"}
+.nsm-fa-tiu:before{content:"\f128"}
+
+.nsm-fa-appstore:before{content:"\f110"}
+.nsm-fa-apple:before{content:"\f111"}
+.nsm-fa-googleplay:before{content:"\f112"}
+.nsm-fa-android:before{content:"\f113"}
+.nsm-fa-windowsstore:before{content:"\f114"}
+.nsm-fa-windows:before{content:"\f115"}
+.nsm-fa-xbox:before{content:"\f116"}
+.nsm-fa-playstation:before{content:"\f117"}
+.nsm-fa-steam:before{content:"\f118"}
+
+.nsm-bar a.nsm-fa-br {max-height: 1px !important;    margin-top: 0px !important;    margin-bottom: 0px !important;}
+.nsm-bar a.nsm-fa-brv {max-width: 1px !important;    margin-left: 0px !important;    margin-right: 0px !important;}
+.nsm-bar a.nsm-fa-br5 {max-height: 1px !important;      margin-top: 5px !important;    margin-bottom: 5px !important;}
+.nsm-bar a.nsm-fa-brv5 {max-width: 1px !important;     margin-left: 5px !important;    margin-right: 5px !important;}
+.nsm-bar a.nsm-fa-br10 {max-height: 1px !important;     margin-top: 10px !important;    margin-bottom: 10px !important;}
+.nsm-bar a.nsm-fa-brv10 {max-width: 1px !important;     margin-left: 10px !important;    margin-right: 10px !important;}
+.nsm-bar a.nsm-fa-br15 {max-height: 1px !important;      margin-top: 15px !important;    margin-bottom: 15px !important;}
+.nsm-bar a.nsm-fa-brv15 {max-width: 1px !important;      margin-left: 15px !important;    margin-right: 15px !important;}
+.nsm-bar a.nsm-fa-br20 {max-height: 1px !important;      margin-top: 20px !important;    margin-bottom: 20px !important;}
+.nsm-bar a.nsm-fa-brv20 {max-width: 1px !important;      margin-left: 20px !important;    margin-right: 20px !important;}
+.nsm-bar a.nsm-fa-br25 {max-height: 1px !important;      margin-top: 25px !important;    margin-bottom: 25px !important;}
+.nsm-bar a.nsm-fa-brv25 {max-width: 1px !important;      margin-left: 25px !important;    margin-right: 25px !important;}
+.nsm-fa-br:before, .nsm-fa-brv:before ,
+.nsm-fa-br5:before, .nsm-fa-brv5:before ,
+.nsm-fa-br10:before, .nsm-fa-brv10:before ,
+.nsm-fa-br15:before, .nsm-fa-brv15:before ,
+.nsm-fa-br20:before, .nsm-fa-brv20:before ,
+.nsm-fa-br25:before, .nsm-fa-brv25:before {content:""}
+
+/* Niges SocMenu Native Style */
+.nsm-bar-c.nsm-style-native .nsm-fab ,
+.nsm-bar.nsm-style-native .nsm-fab {
+	color:#fff !important;	
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-instagram ,
+.nsm-bar.nsm-style-native .nsm-fa-instagram {
+	background: #bd20c7 !important;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-odnoklassniki ,
+.nsm-bar.nsm-style-native .nsm-fa-odnoklassniki {
+	background: #f19912 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-vk ,
+.nsm-bar.nsm-style-native .nsm-fa-vk {
+	background: #467fc2 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-facebook ,
+.nsm-bar.nsm-style-native .nsm-fa-facebook {
+	background: #3b5998 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-twitter , 
+.nsm-bar.nsm-style-native .nsm-fa-twitter {
+	background: #37a4d9 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-pinterest ,
+.nsm-bar.nsm-style-native .nsm-fa-pinterest {
+	background: #bb0112 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-telegram ,
+.nsm-bar.nsm-style-native .nsm-fa-telegram {
+	background: #32a7d9 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-viber ,
+.nsm-bar.nsm-style-native .nsm-fa-viber {
+	background: #7f49ac !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-whatsapp ,
+.nsm-bar.nsm-style-native .nsm-fa-whatsapp {
+	/*background: #08bb07 !important;*/
+	background: #25d366 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-skype ,
+.nsm-bar.nsm-style-native .nsm-fa-skype {
+	background: #27a3e3 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-youtube ,
+.nsm-bar.nsm-style-native .nsm-fa-youtube {
+	background: #dc100c !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-tiktok ,
+.nsm-bar.nsm-style-native .nsm-fa-tiktok {
+	background: #000000 !important;
+	text-shadow: -0.05em -0.05em #26f3ee, 0.05em 0.05em #f72f54;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-zen ,
+.nsm-bar.nsm-style-native .nsm-fa-zen {
+	background: #000000 !important; 
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-twitch , 
+.nsm-bar.nsm-style-native .nsm-fa-twitch {
+	background: #9146ff !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-wechat ,
+.nsm-bar.nsm-style-native .nsm-fa-wechat {
+	background: #07c160 !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-snapchat ,
+.nsm-bar.nsm-style-native .nsm-fa-snapchat {
+	background: #fffd00 !important;
+	text-shadow: 1px 1px #000, -1px -1px #000, -1px 1px #000, 1px -1px #000;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-messenger ,
+.nsm-bar.nsm-style-native .nsm-fa-messenger {
+	background: #da45b4 !important;
+	background: linear-gradient(221deg, rgba(255,71,85,1), rgba(255,71,85,0) 80.71%),            linear-gradient(127deg, rgba(214,73,185,1), rgba(214,73,185,0) 70.71%),            linear-gradient(376deg, rgba(55,135,249,1), rgba(55,135,255,0) 90.71%)  !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var1, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var2, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var3, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var4, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var5, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var6, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var1, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var2, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var3, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var4, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var5, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var6 {
+	background: #009900 !important;
+    background-image: radial-gradient(ellipse farthest-corner at left top, #1ed001 0%, #00a000 50%, #008e00 100%) !important;
+}
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var1:hover, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var2:hover, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var3:hover, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var4:hover, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var5:hover, 
+.nsm-bar-c.nsm-style-native .nsm-fa-tel-var6:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var1:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var2:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var3:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var4:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var5:hover, 
+.nsm-bar.nsm-style-native .nsm-fa-tel-var6:hover { 
+	background: #00b712 !important; 
+	background-image: radial-gradient(ellipse farthest-corner at left top, #1ddb00 0%, #00ac00 50%, #008000 100%) !important;
+}
+
+/* other */
+.nsm-bar-c.nsm-style-native .nsm-fa-br,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv,
+.nsm-bar-c.nsm-style-native .nsm-fa-br5,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv5,
+.nsm-bar-c.nsm-style-native .nsm-fa-br10,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv10,
+.nsm-bar-c.nsm-style-native .nsm-fa-br15,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv15,
+.nsm-bar-c.nsm-style-native .nsm-fa-br20,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv20,
+.nsm-bar-c.nsm-style-native .nsm-fa-br25,
+.nsm-bar-c.nsm-style-native .nsm-fa-brv25, 
+.nsm-bar.nsm-style-native .nsm-fa-br,
+.nsm-bar.nsm-style-native .nsm-fa-brv,
+.nsm-bar.nsm-style-native .nsm-fa-br5,
+.nsm-bar.nsm-style-native .nsm-fa-brv5,
+.nsm-bar.nsm-style-native .nsm-fa-br10,
+.nsm-bar.nsm-style-native .nsm-fa-brv10,
+.nsm-bar.nsm-style-native .nsm-fa-br15,
+.nsm-bar.nsm-style-native .nsm-fa-brv15,
+.nsm-bar.nsm-style-native .nsm-fa-br20,
+.nsm-bar.nsm-style-native .nsm-fa-brv20,
+.nsm-bar.nsm-style-native .nsm-fa-br25,
+.nsm-bar.nsm-style-native .nsm-fa-brv25  {	background: #808080 !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-vimeo ,
+.nsm-bar.nsm-style-native .nsm-fa-vimeo {	background: #19b1e3 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-chat , 
+.nsm-bar.nsm-style-native .nsm-fa-chat {	background: #2546b3 !important; background-image: radial-gradient(ellipse farthest-corner at right bottom, #007d66 0%, #01a27d 50%, #01e0c9 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-email ,
+.nsm-bar.nsm-style-native .nsm-fa-email {	background: #da981e !important; background-image: radial-gradient(ellipse farthest-corner at right bottom, #d08700 0%, #e2a700 50%, #ffc600 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-user , 
+.nsm-bar.nsm-style-native .nsm-fa-user {	background: #1865ad !important; background-image: radial-gradient(ellipse farthest-corner at right bottom, #0030b7 0%, #2f44de 50%, #0060ea 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-lock , 
+.nsm-bar.nsm-style-native .nsm-fa-lock {	background-image: radial-gradient(ellipse farthest-corner at right bottom, #028229 0%, #00ad2d 50%, #01d82d 100%) !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-lock3 ,
+.nsm-bar.nsm-style-native .nsm-fa-lock3 {	background-image: radial-gradient(ellipse farthest-corner at right bottom, #028229 0%, #00ad2d 50%, #01d82d 100%) !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-behance ,
+.nsm-bar.nsm-style-native .nsm-fa-behance {	background: #1769ff !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-dribbble ,
+.nsm-bar.nsm-style-native .nsm-fa-dribbble {	background: #dd4e85 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-trello ,
+.nsm-bar.nsm-style-native .nsm-fa-trello {	background: #0075b9 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-slack ,
+.nsm-bar.nsm-style-native .nsm-fa-slack {	background: #481449 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-b24 ,
+.nsm-bar.nsm-style-native .nsm-fa-b24 {	background: #0bb5e8 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-bitrix24 , 
+.nsm-bar.nsm-style-native .nsm-fa-bitrix24 {	background: #0bb5e8 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-crm , 
+.nsm-bar.nsm-style-native .nsm-fa-crm {	background: #0b58e8 !important; background-image: radial-gradient(ellipse farthest-corner at left bottom, #003d71 0%, #008db7 50%, #011fe0 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-amocrm , 
+.nsm-bar.nsm-style-native .nsm-fa-amocrm {	background: #0083bf !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-googledrive , 
+.nsm-bar.nsm-style-native .nsm-fa-googledrive {	background: #191a1e !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-yandexdisk ,
+.nsm-bar.nsm-style-native .nsm-fa-yandexdisk {	background: #0073f6 !important; background: #ef0303 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-onedrive ,
+.nsm-bar.nsm-style-native .nsm-fa-onedrive {	background: #0948ab !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-link ,
+.nsm-bar.nsm-style-native .nsm-fa-link {	background: #094fab !important; background-image: radial-gradient(ellipse farthest-corner at left top, #00bbf3 0%, #2081b9 50%, #03376b 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-url ,
+.nsm-bar.nsm-style-native .nsm-fa-url {	background: #09aba3 !important; background-image: radial-gradient(ellipse farthest-corner at left top, #00d083 0%, #09aba3 50%, #037b75 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-download ,
+.nsm-bar.nsm-style-native .nsm-fa-download {	background: #09ab47 !important;background-image: radial-gradient(ellipse farthest-corner at left top, #00ff4e 0%, #09ab47 50%, #006527 100%) !important; }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-book ,
+.nsm-bar.nsm-style-native .nsm-fa-book {	background: #a06712 !important;     background-image: radial-gradient(ellipse farthest-corner at right bottom, #ff4700 0%, #ea7700 50%, #ffdd00 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-file ,
+.nsm-bar.nsm-style-native .nsm-fa-file {	background: #301a63 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-pdf ,
+.nsm-bar.nsm-style-native .nsm-fa-pdf {	background: #a50000 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-doc ,
+.nsm-bar.nsm-style-native .nsm-fa-doc {	background: #1757b7 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-zip ,
+.nsm-bar.nsm-style-native .nsm-fa-zip {	background: #21295b !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-cart ,
+.nsm-bar.nsm-style-native .nsm-fa-cart {	background-color: #00a01b !important; background-image: linear-gradient(	170deg	, transparent 80%, #00a01b 30%), linear-gradient(	156deg	, transparent 68%, #00861d 30%), linear-gradient(	135deg	, transparent 60%, #00a01b 30%), linear-gradient(	115deg	, transparent 55%, #00861d 30%), linear-gradient(	65deg	, transparent 45%, #00a01b 30%), linear-gradient(	45deg	, transparent 40%, #00861d 30%), linear-gradient(	24deg	, transparent 32%, #00a01b 30%), linear-gradient(	10deg	, transparent 20%, #00861d 20%), linear-gradient(	0deg	, transparent 0%, #00a01b 0%) !important;		background-position: 50% 100% !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-present ,
+.nsm-bar.nsm-style-native .nsm-fa-present {	background: repeating-linear-gradient( -45deg, transparent 0, transparent 25%, #ff0c0c 0, #ff3535 50% ), repeating-linear-gradient( 45deg, transparent 0, transparent 25%, #ffb300 0, #ff630c 50% ), repeating-linear-gradient( transparent 0, transparent 25%, gold 0, gold 50% ), #ff8100 !important;		background-blend-mode: multiply; background-size: 25% 25% !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-sale ,
+.nsm-bar.nsm-style-native .nsm-fa-sale {	background-image: radial-gradient(ellipse farthest-corner at right bottom, #ff6a00 0%, #ff2300 50%, #ff8b00 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-review ,
+.nsm-bar.nsm-style-native .nsm-fa-review {	background: #daa700 !important; background-image: radial-gradient(ellipse farthest-corner at right bottom, #ff7600 0%, #ff9900 50%, #fff500 100%) !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-map ,
+.nsm-bar.nsm-style-native .nsm-fa-map {	background: #776d21 !important; background-image: radial-gradient(ellipse farthest-corner at right top, #188ed4 0%, #68981a 50%, #776d21 100%) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-search ,
+.nsm-bar.nsm-style-native .nsm-fa-search {	background: #006f65 !important; background-image: radial-gradient(ellipse farthest-corner at right top, #01a798 0%, #038e87 50%, #004c45 100%) !important; }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-calc ,
+.nsm-bar.nsm-style-native .nsm-fa-calc {	background-color: #007ba0 !important; 	background-image: linear-gradient( 		270deg		 , #9223f5 0%, #432bfa 50%, transparent 50%, transparent 70%, transparent), linear-gradient( 		270deg		 , #0294bf 0%, #035aa2 50%, transparent 50%, transparent 70%, transparent), linear-gradient( 		90deg		 , #00bc98 0%, #008e76 50%, transparent 50%, transparent 70%, transparent), linear-gradient( 		90deg		 , #31d247 0%, #22b137 50%, transparent 50%, transparent 70%, transparent) !important;			background-size: 100% 50%, 100% 50%, 100% 50%, 100% 50% !important;			background-repeat: no-repeat !important;			background-position: 0% 100%, 0% 0%, 0% 100%, 0% 0% !important;}
+
+.nsm-bar-c.nsm-style-native .nsm-fa-order ,
+.nsm-bar.nsm-style-native .nsm-fa-order {    background: #0b58e8 !important;    background-image: radial-gradient(ellipse farthest-corner at right bottom, #0063b7 0%, #008db7 50%, #0131e0 100%) !important;}
+.nsm-bar-c.nsm-style-native .nsm-fa-pay ,
+.nsm-bar.nsm-style-native .nsm-fa-pay {    background: #0b58e8 !important;    background-image: radial-gradient(ellipse farthest-corner at right bottom, #00b752 0%, #00b737 50%, #01e044 100%) !important;}
+
+.nsm-bar-c.nsm-style-native .nsm-fa-goods ,
+.nsm-bar.nsm-style-native .nsm-fa-goods {	background: #111111 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-kazanexpress ,
+.nsm-bar.nsm-style-native .nsm-fa-kazanexpress {	background: #d82925 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-beru ,
+.nsm-bar.nsm-style-native .nsm-fa-beru {	background: #6b3bf0 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-yandexmarket ,
+.nsm-bar.nsm-style-native .nsm-fa-yandexmarket {	background: #111111 !important;     background-image: linear-gradient(	0deg, #020202, #2e2e2e) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-yandexmarket:before ,
+.nsm-bar.nsm-style-native .nsm-fa-yandexmarket:before {	color: #f7c910 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-avito ,
+.nsm-bar.nsm-style-native .nsm-fa-avito {	background: #0af !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-aliexpress ,
+.nsm-bar.nsm-style-native .nsm-fa-aliexpress {	background: #df2d04 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-ozon ,
+.nsm-bar.nsm-style-native .nsm-fa-ozon {	background: #0a63f7 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-lamoda ,
+.nsm-bar.nsm-style-native .nsm-fa-lamoda {	background: #f13b00 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-aliexpress ,
+.nsm-bar.nsm-style-native .nsm-fa-aliexpress {	background: #df2d04 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-wb ,
+.nsm-bar.nsm-style-native .nsm-fa-wb {	background: #85108c !important;     background-image: linear-gradient(	90deg, #c112a5, #491274) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-cdek ,
+.nsm-bar.nsm-style-native .nsm-fa-cdek {	background: #00803c !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-youla ,
+.nsm-bar.nsm-style-native .nsm-fa-youla {	background: #4794ff !important;    background-image: linear-gradient(48deg, #d352fd, transparent), linear-gradient(2deg, #0034d4, transparent), linear-gradient(272deg, #00fffe, transparent) !important; }
+.nsm-bar-c.nsm-style-native .nsm-fa-tiu ,
+.nsm-bar.nsm-style-native .nsm-fa-tiu {    background: linear-gradient(135deg, #48509d, #712186) !important }
+
+.nsm-bar-c.nsm-style-native .nsm-fa-appstore ,
+.nsm-bar.nsm-style-native .nsm-fa-appstore {    background: linear-gradient(0deg, #1f6eea, #1ab7f6) !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-apple ,
+.nsm-bar.nsm-style-native .nsm-fa-apple {	background: #111111 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-googleplay ,
+.nsm-bar.nsm-style-native .nsm-fa-googleplay {	background: #111111 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-android , 
+.nsm-bar.nsm-style-native .nsm-fa-android {	background: #8fc91c !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-windowsstore ,
+.nsm-bar.nsm-style-native .nsm-fa-windowsstore {	background: #009ce9 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-windows ,
+.nsm-bar.nsm-style-native .nsm-fa-windows {	background: #00a8e8 !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-xbox ,
+.nsm-bar.nsm-style-native .nsm-fa-xbox {	background: #10780f !important }
+.nsm-bar-c.nsm-style-native .nsm-fa-playstation ,
+.nsm-bar.nsm-style-native .nsm-fa-playstation {	background: linear-gradient(rgb(12 12 60 / 40%), rgba(135, 60, 255, 0.0) 80%), linear-gradient(	-45deg, rgb(7 33 107 / 90%) 25%, rgb(19 81 220 / 90%) 75%) !important } 
+.nsm-bar-c.nsm-style-native .nsm-fa-steam ,
+.nsm-bar.nsm-style-native .nsm-fa-steam {	background: linear-gradient(0deg, #0b83b5, #07172a) !important ; }
+
+
+
+
+
+
+
+
+
+
+/* Niges SocMenu CSS */
+.nsm-bar-c .nsm-bar-btn,
+.nsm-bar-c .nsm-bar-btn:hover,
+.nsm-bar-c .nsm-bar-btn:focus,
+.nsm-bar-c .nsm-bar-btn:active,
+.nsm-bar-c .nsm-bar-btn:visited,
+.nsm-bar .nsm-bar-btn,
+.nsm-bar .nsm-bar-btn:hover,
+.nsm-bar .nsm-bar-btn:focus,
+.nsm-bar .nsm-bar-btn:active,
+.nsm-bar .nsm-bar-btn:visited{
+	outline: none;
+	overflow: hidden;
+	max-width: none;
+	max-height: none;
+	min-width: 0;
+	min-height: 0;
+	text-decoration: none;	
+}
+.nsm-bar-c ,
+.nsm-bar{
+	outline:none;
+}
+.nsm-bar-c .nsm-bar-btn ,
+.nsm-bar .nsm-bar-btn{
+	display: block;
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	left: 0;
+}
+
+.nsm-bar.nsm-position-left {left: 0;}
+.nsm-bar.nsm-position-right {right: 0;}
+.nsm-bar-c.nsm-position-component .nsm-bar-btn,  
+.nsm-bar.nsm-position-indiv .nsm-bar-btn {top: unset; bottom: unset;}
+.nsm-bar.nsm-animation-none .nsm-bar-btn:hover {
+}
+.nsm-bar.nsm-animation-shake .nsm-bar-btn:hover{
+}
+
+.nsm-bar-c.nsm-animation-rotate .nsm-bar-btn:hover .nsm-bar__ico ,
+.nsm-bar.nsm-animation-rotate .nsm-bar-btn:hover .nsm-bar__ico {
+	-moz-transform: srotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.nsm-bar.nsm-position-left.nsm-animation-shift .nsm-bar-btn:hover {left: 10px;}
+.nsm-bar.nsm-position-right.nsm-animation-shift .nsm-bar-btn:hover {left: -10px;}
+.nsm-bar.nsm-position-indiv.nsm-animation-shift .nsm-bar-btn:hover {top: -5px;}
+.nsm-bar-c.nsm-position-component.nsm-animation-shift .nsm-bar-btn:hover {top: -5px;}
+
+#niges-socmenu, .niges-socmenu{
+	display: inline-block;
+}
+.nsm-position-indiv{
+	display: none;
+}
+#niges-socmenu .nsm-position-component,
+#niges-socmenu .nsm-position-indiv,
+.niges-socmenu .nsm-position-indiv{
+	display: inline-block !important;
+	position: relative !important;
+}
+#niges-socmenu .nsm-position-component .nsm-bar-btn,
+#niges-socmenu .nsm-position-indiv .nsm-bar-btn,
+.niges-socmenu .nsm-position-indiv .nsm-bar-btn{
+	display: inline-block !important;
+}
+
+@media screen and (min-width:767.01px) {
+	.nsm-hidden-pc {display: none !important;}
+}
+@media screen and (max-width:767px) {
+	.nsm-hidden-mobile {display: none !important;}
+}
+
+.niges-socmenu-left-caption {display:block;font-size:0.8em;font-weight:normal;padding:0 13px;color:#999999;overflow:hidden;text-overflow:ellipsis;line-height:26px;margin-bottom:15px;top:-6px;position:relative;}
